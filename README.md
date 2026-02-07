@@ -1,1 +1,2 @@
 # Commissio-Ducalis-1408
+This digital scholarly edition provides a semi-diplomatic transcription and structured TEI encoding of the ducal commission of 1408, preserved in two manuscript witnesses. The project aims to model the linguistic, documentary, and administrative characteristics of the original sources in a machine-readable form, enabling further palaeographic, historical, and prosopographical research.
