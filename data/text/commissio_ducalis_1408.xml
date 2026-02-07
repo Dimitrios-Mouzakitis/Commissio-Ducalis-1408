@@ -1,0 +1,2429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Commissio Ducalis 1408</title>
+            <editor xml:id="EDI-DM">
+               <forename>Dimitrios Chrysovalantis</forename>
+               <surname>Mouzakitis</surname>
+               <affiliation>Ca' Foscari University of Venice</affiliation>
+            </editor>
+            <respStmt>
+               <resp>Transcription and encoding:</resp>
+               <name ref="#EDI-DM">
+                  <forename>Dimitrios Chrysovalantis</forename>
+                  <surname>Mouzakitis</surname>
+               </name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName type="university">- Ca' Foscari University of Venice</orgName>
+               <orgName type="researchCentre">Venice Centre for Digital and Public
+                  Humanities</orgName>
+            </publisher>
+            <pubPlace>Venice, Italy</pubPlace>
+            <date when="2026">2026</date>
+            <availability status="free">
+               <licence>CC BY-NC-SA 4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="ASVe_Com1408">
+               <msIdentifier>
+                  <settlement>Venice, Italy</settlement>
+                  <repository>Archivio di Stato di Venezia</repository>
+                  <collection>Collegio, commissioni ai rettori e altre cariche</collection>
+                  <idno>b. 1, 13</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title type="original" xml:lang="la">Commissio egregiorum et nobilium virorum
+                        dominorum Andree Barbaro et Jacobi Michael, honorabilium sindicorum insule
+                        Crete.</title>
+                     <textLang mainLang="la">Latin</textLang>
+                     <argument>
+                        <p xml:lang="en">This manuscript contains the ducal commission issued by
+                           Doge Michele Steno appointing Andrea Barbaro and Jacopo Michiel as
+                           Sindici Inquisitori for the island of Crete. It preserves the text
+                           detailing their mandate to investigate administrative and financial
+                           misconduct by Venetian officials, to receive complaints, gather
+                           testimony, and enforce restitution where appropriate. The document, as
+                           transmitted in this witness, reflects the mechanisms through which the
+                           Venetian government supervised and disciplined its officials in the
+                           overseas dominion of Crete.</p>
+                     </argument>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Parchment.</material>
+                        </support>
+                        <extent>
+                           <measure type="leaf">3 folios.</measure>
+                           <measure type="page">8 pages.</measure>
+                           <dimensions unit="cm">
+                              <height>32.5 X</height>
+                              <width>24</width>
+                           </dimensions>
+                        </extent>
+                        <condition>Good, easily readable.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Text written in Venetian Chancery script.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="#PLA-VE" xml:lang="en">Venice</origPlace>
+                     <origDate when="1408-04-19" xml:lang="en">19 April 1408</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+            <msDesc xml:id="Marc_Com1408">
+               <msIdentifier>
+                  <settlement>Venice, Italy</settlement>
+                  <repository>Biblioteca Nazionale Marciana</repository>
+                  <collection>Manoscritti latini</collection>
+                  <idno>XIV, 72 (4273), cc. 58-62</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <title type="original" xml:lang="la">Commissio egregiorum et nobilium virorum
+                        dominorum Johannis Emo et Luce Truno, honorabilium sindicorum ad partes
+                        Romanie.</title>
+                     <textLang mainLang="la">Latin</textLang>
+                     <argument>
+                        <p xml:lang="en">This manuscript contains the ducal commission issued by
+                           Doge Michele Steno appointing Giovanni Emo and Luca Tron as Sindici
+                           Inquisitori for the territories of the Romania (including Corfu, Modon,
+                           Coron, Negroponte, and Napoli di Romania). It preserves the text
+                           detailing their mandate to investigate administrative and financial
+                           misconduct by Venetian officials, to receive complaints, gather
+                           testimony, and enforce restitution where appropriate. The document, as
+                           transmitted in this witness, reflects the mechanisms through which the
+                           Venetian government supervised and disciplined its officials in the
+                           overseas dominions of the eastern Mediterranean.</p>
+                     </argument>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Parchment</material>
+                        </support>
+                        <extent>
+                           <measure type="leaf">3 folios.</measure>
+                           <measure type="page">9 pages.</measure>
+                           <dimensions unit="cm">
+                              <height>32.5 X</height>
+                              <width>24</width>
+                           </dimensions>
+                        </extent>
+                        <condition>Legible, though affected by widespread fungal activity leading to
+                           occasional textual uncertainty.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1"/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Text written in Venetian Chancery script.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace ref="#PLA-VE" xml:lang="en">Venice</origPlace>
+                     <origDate when="1408-04-19" xml:lang="en">19 April 1408</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+            <listBibl>
+               <bibl xml:id="BIB-HF">
+                  <author>
+                     <forename>Karl Hermann Friedrich Johann</forename>
+                     <surname>Hopf</surname>
+                     <idno type="VIAF">54914174</idno>
+                     <idno type="Wikipedia"
+                        >https://en.wikipedia.org/wiki/Karl_Hopf_(historian)</idno>
+                  </author>
+                  <title xml:lang="fr">Chroniques gréco-romanes inédites ou peu connues, pub. avec
+                     notes et tables généalogiques</title>
+                  <publisher>Weidmann</publisher>
+                  <pubPlace>Berlin, Germany</pubPlace>
+                  <date when="1873">1873</date>
+               </bibl>
+               <bibl xml:id="BIB-NT">
+                  <author>
+                     <forename>Hippolyte</forename>
+                     <surname>Noiret</surname>
+                     <idno type="VIAF">47122316</idno>
+                     <idno type="Wikipedia">https://de.wikipedia.org/wiki/Hippolyte_Noiret</idno>
+                  </author>
+                  <title xml:lang="fr">Documents inédits pour servir à l’histoire de la domination
+                     vénitienne en Crète de 1380 à 1485, tirés des archives de Venise</title>
+                  <publisher>Thorin et Fils</publisher>
+                  <pubPlace>Paris, France</pubPlace>
+                  <date when="1892">1892</date>
+               </bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">This digital scholarly edition provides a semi-diplomatic transcription
+               and structured TEI encoding of the ducal commission of 1408, preserved in two
+               manuscript witnesses. The project aims to model the linguistic, documentary, and
+               administrative characteristics of the original sources in a machine-readable form,
+               enabling further palaeographic, historical, and prosopographical research.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p xml:lang="en">The transcription follows a semi-diplomatic method grounded in direct
+               examination of the manuscripts. Orthography, word division, scribal habits, and the
+               formal structure of chancery Latin have been preserved. Page and line breaks,
+               rubrication, and internal chapter divisions are retained to mirror the documentary
+               layout. Capitalization has been regularised, restricting capital letters to proper
+               nouns (persons, places, and peoples), and punctuation has been standardised to
+               facilitate reading while maintaining the text’s original rhythm.</p>
+            <normalization method="silent">
+               <p xml:lang="en">Orthographic normalization has been deliberately limited. Original
+                  spellings (e.g., <q>Corphoy</q>, <q>offitialis</q>, <q>havere</q>, <q>comune</q>)
+                  are reproduced. The fluctuating use of <q>u/v</q> and <q>i/j</q> has been left
+                  largely unchanged, except where minimal harmonisation was necessary for internal
+                  consistency. Scribal abbreviations and suspensions have been silently expanded to
+                  improve readability, following conventions used in comparable Digital Scholarly
+                  Editions of Venetian documents. No modernization of vocabulary or syntax has been
+                  applied.</p>
+            </normalization>
+            <punctuation>
+               <p xml:lang="en">Punctuation has been partially standardised to enhance legibility
+                  but remains close to the manuscript usage. No modern quotation marks have been
+                  added, and no editorial punctuation has been introduced except where required for
+                  minimal clarity.</p>
+            </punctuation>
+            <quotation>
+               <p xml:lang="en">The manuscripts do not employ quotation marks, and no quotation
+                  conventions have been imposed. Reported or formulaic speech is conveyed solely
+                  through context and TEI structural tags rather than typographic quotation.</p>
+            </quotation>
+            <hyphenation>
+               <p xml:lang="en">Hyphenation follows the manuscript only in the ASVe witness case.
+                  Line-end word breaks are preserved exactly as written; editorial recombination has
+                  not been applied. All manuscript line breaks are encoded using &lt;lb/&gt;. The
+                  Marciana witness does not present line breaks.</p>
+            </hyphenation>
+            <interpretation>
+               <p xml:lang="en">Named entities (persons, places, institutions, titles, and offices)
+                  are identified only when the attribution is unambiguous. Entities are linked
+                  through @ref attributes to controlled vocabularies (listPerson, listPlace,
+                  listOrg) and, when possible, to external authority files such as VIAF, Wikipedia,
+                  GeoNames, and the Getty TGN. Ambiguous or doubtful readings are annotated through
+                  TEI uncertainty mechanisms (e.g., &lt;unclear&gt;).</p>
+            </interpretation>
+            <correction>
+               <p xml:lang="en">Readings rendered uncertain due to ink corrosion, fungal damage, or
+                  ambiguous abbreviations, particularly in the Marciana witness, have been
+                  transcribed conservatively. Conjectural readings draw primarily on Hopf’s 19th
+                  century edition when manuscript evidence is unclear. All corrected or uncertain
+                  readings are explicitly marked.</p>
+            </correction>
+            <p xml:lang="en">Automated tools such as Transkribus and ChatGPT were used only after
+               the completion of the manual transcription, as auxiliary instruments to verify
+               palaeographic consistency and Latin orthography. All automated suggestions were
+               reviewed and confirmed against the manuscript, and final validation was conducted in
+               collaboration with Professor Alessandra Rizzi.</p>
+         </editorialDecl>
+         <samplingDecl>
+            <p xml:lang="en">Both surviving witnesses were fully transcribed. No sampling procedures
+               were applied.</p>
+         </samplingDecl>
+         <refsDecl>
+            <p xml:lang="en">Internal references use @xml:id/@ref linking between entities and their
+               definitions in the TEI header. All cross-references follow a consistent,
+               URI-compatible identifier scheme.</p>
+         </refsDecl>
+         <tagsDecl>
+            <rendition xml:id="r-italic">font-style: italic;</rendition>
+            <rendition xml:id="r-rubric">color: #B30000; font-weight: bold;</rendition>
+            <rendition xml:id="r-expanded">letter-spacing: 0.05em;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="la">Latin.</language>
+            <language ident="en">English.</language>
+            <language ident="it">Italian.</language>
+            <language ident="el">Greek.</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="free" xml:lang="en">
+               <term>Stato da Mar.</term>
+               <term>Sindici Inquisitori.</term>
+               <term>Michele Steno.</term>
+               <term>Republic of Venice.</term>
+               <term>Digital Scholarly Editing.</term>
+               <term>TEI-XML.</term>
+            </keywords>
+         </textClass>
+         <particDesc>
+            <listOrg>
+               <org xml:id="ORG-DG" type="central">
+                  <orgName xml:lang="it">Doge di Venezia</orgName>
+                  <idno type="Wikipedia">https://en.wikipedia.org/wiki/Doge_of_Venice</idno>
+                  <desc xml:lang="en">The Doge was the chief magistrate and symbolic head of the
+                     Republic of Venice, serving as both the leader of the state and the
+                     personification of its authority. The office was established during the Middle
+                     Ages and lasted until 1797. The Doge was elected for life by the Venetian
+                     aristocracy through a complex electoral process designed to prevent corruption
+                     and concentration of power. Although early Doges held significant political and
+                     military authority, over time their powers were severely limited by the
+                     Republic’s councils, making the Doge primarily a ceremonial and unifying figure
+                     representing the dignity and continuity of Venice.</desc>
+               </org>
+               <org xml:id="ORG-CM" type="central">
+                  <idno type="Wikipedia">https://en.wikipedia.org/wiki/Commune_of_Venice</idno>
+                  <orgName xml:lang="it">Comune di Venezia</orgName>
+                  <desc xml:lang="en">The Comune di Venezia (Latin: Communis Venetiarum) was the
+                     political and fiscal body of the Republic of Venice, representing the
+                     collective interests and resources of the state. In chancery language, the term
+                     “comune” designated the public treasury and the ensemble of revenues, rights,
+                     and properties belonging to the Republic, as distinct from private or
+                     patrimonial wealth. References to “rationes communis” in the commission
+                     indicate accounts, grain stocks, and other assets administered on behalf of the
+                     Venetian state.</desc>
+               </org>
+               <org xml:id="ORG-CR" type="central">
+                  <idno type="Wikipedia">https://en.wikipedia.org/wiki/Venetian_Senate</idno>
+                  <orgName xml:lang="it">Consiglio dei Rogati</orgName>
+                  <desc xml:lang="en">The Consiglio dei Rogati, later known as the Senato, was one
+                     of the principal governing bodies of the Republic of Venice. Established in the
+                     13th century, it was composed of patricians elected from the Maggior Consiglio
+                     and functioned as the Republic’s main deliberative and executive council. The
+                     Rogati supervised foreign policy, finance, and administration, often preparing
+                     and executing decisions later ratified by the higher councils. Over time, it
+                     became the true center of political power in Venice, balancing the authority of
+                     the Doge and ensuring the continuity of government.</desc>
+               </org>
+               <org xml:id="ORG-ZO" type="central">
+                  <idno type="Wikipedia"
+                     >https://en.wikipedia.org/wiki/Zonta_(Republic_of_Venice)</idno>
+                  <orgName xml:lang="it">Zonta</orgName>
+                  <desc xml:lang="en">The Zonta (Latin: Additio, “addition”) was a temporary body of
+                     patricians appointed to assist or augment an existing council. In the context
+                     of the present document, it refers to the supplementary group added to the
+                     Consiglio dei Rogati. These additional members were selected for specific
+                     circumstances or periods, providing broader participation and enhanced
+                     oversight within the Venetian political system.</desc>
+               </org>
+               <org xml:id="ORG-MC" type="central">
+                  <idno type="Wikipedia"
+                     >https://en.wikipedia.org/wiki/Great_Council_of_Venice</idno>
+                  <orgName xml:lang="it">Maggior Consiglio</orgName>
+                  <desc xml:lang="en">The Maggior Consiglio was the supreme legislative body of the
+                     Republic of Venice and the cornerstone of its republican constitution. Composed
+                     of all adult male members of the Venetian patriciate, it held authority over
+                     lawmaking, elections, and the appointment of public officials. Following the
+                     Serrata del Maggior Consiglio of 1297, membership became hereditary,
+                     consolidating political power within the noble families. The Maggior Consiglio
+                     embodied the collective sovereignty of the Venetian aristocracy and served as
+                     the ultimate source of legitimacy for all other institutions of the
+                     Republic.</desc>
+               </org>
+               <org xml:id="ORG-CQ" type="central">
+                  <idno type="Wikipedia">https://en.wikipedia.org/wiki/Council_of_Forty</idno>
+                  <orgName xml:lang="it">Consiglio dei Quaranta</orgName>
+                  <desc xml:lang="en">The Consiglio dei Quaranta, also known as the Quarantia, was
+                     one of the principal governing and judicial bodies of the Republic of Venice.
+                     Established in the early 13th century, it originally functioned as a group of
+                     forty electors assisting in the election of the Doge but gradually evolved into
+                     a central tribunal with both civil and criminal jurisdiction. Over time, it was
+                     divided into separate branches such as the Quarantia Criminale and the
+                     Quarantia Civile, while retaining important supervisory powers over
+                     legislation, finance, and judicial appeals. The Quaranta played a key role in
+                     ensuring legal oversight and accountability within the Venetian administrative
+                     system, serving as the ultimate court of justice and an essential element of
+                     the Republic’s institutional balance.</desc>
+               </org>
+               <org xml:id="ORG-AC" type="central">
+                  <orgName xml:lang="it">Avogadori di Comun</orgName>
+                  <idno type="Wikipedia"
+                     >https://en.wikipedia.org/wiki/Avogadoria_de_Com%C3%B9n</idno>
+                  <desc xml:lang="en">The Avogadori di Comun were officials of the Republic of
+                     Venice, serving a role similar to that of public prosecutors or guardians of
+                     legality. They were among the oldest institutions of the Venetian state, and
+                     their main duty was to oversee the legality of government actions and the
+                     conduct of officials, thereby protecting the Venetian state itself. They had
+                     the authority to challenge decisions made by the Senate or other governing
+                     bodies if they believed these violated the law or the public interest. In this
+                     way, the Avogadori de Comùn acted as guardians of constitutional order and
+                     justice in Venice.</desc>
+               </org>
+               <org xml:id="ORG-UC" type="central">
+                  <orgName xml:lang="it">Ufficiali alle Cazude</orgName>
+                  <desc xml:lang="en">The Ufficiali alle Cazude were a fiscal magistracy of the
+                     Republic of Venice responsible for the recovery of unpaid public dues such as
+                     taxes, levies, and other financial obligations to the state. Established in the
+                     mid-fifteenth century, the office was empowered to enforce payment through the
+                     sequestration and sale of property belonging to debtors. The officials ensured
+                     compliance with fiscal laws and contributed to the stability of the Republic’s
+                     financial administration by overseeing the execution of sentences related to
+                     tax arrears and public debts.</desc>
+               </org>
+               <org xml:id="ORG-UR" type="central">
+                  <orgName xml:lang="it">Ufficiali alle Rason Vecchie</orgName>
+                  <idno type="Wikipedia">https://it.wikipedia.org/wiki/Ufficio_alle_Rason</idno>
+                  <desc xml:lang="en">The Ufficiali alle Rason Vecchie were financial magistrates of
+                     the Republic of Venice responsible for auditing and verifying the accounts of
+                     officials who had completed their terms of service, particularly those who had
+                     governed overseas territories or administered public funds. Their office,
+                     located near the Rialto, examined revenues, expenditures, and balances recorded
+                     in official registers, ensuring that all monies due to the commune were
+                     properly accounted for. Through this system of post-service auditing, the
+                     Ufficiali alle Rason Vecchie played a central role in maintaining fiscal
+                     transparency and accountability within the Venetian administrative
+                     apparatus.</desc>
+               </org>
+               <org xml:id="ORG-CD" type="central">
+                  <orgName xml:lang="it">Consiglieri Ducali</orgName>
+                  <desc xml:lang="en">The Consiglieri Ducali were high-ranking patrician magistrates
+                     who formed, together with the Doge, the core of the Signoria of Venice. Elected
+                     from among the members of the Maggior Consiglio, they sat permanently at the
+                     Doge’s side, sharing in the deliberation and approval of governmental acts,
+                     ducal letters, and diplomatic and judicial decisions. Their presence limited
+                     the Doge’s individual authority, ensuring that executive power was exercised
+                     collectively and in accordance with the broader will of the patriciate.</desc>
+               </org>
+               <org xml:id="ORG-SI" type="extraordinary">
+                  <orgName xml:lang="it">Sindici Inquisitori</orgName>
+                  <idno type="Wikipedia">https://it.wikipedia.org/wiki/Sindici_Inquisitori</idno>
+                  <desc xml:lang="en">The Sindici Inquisitori were extraordinary magistrates of the
+                     Republic of Venice appointed to inspect and audit the conduct of officials
+                     serving in the Republic’s overseas dominions (Stato da Mar) and in the mainland
+                     territories (Stato da Terra). Their office, usually composed of a group of
+                     patricians elected by the Senato, functioned as a mechanism of accountability
+                     within the Venetian administrative system. Empowered to examine financial
+                     management, judicial decisions, and abuses of authority, the Sindici could
+                     summon witnesses, review documents, and impose sanctions or initiate
+                     prosecutions before the Avogadori di Comun or the Quarantia.</desc>
+               </org>
+               <org xml:id="ORG-RT" type="statodamar">
+                  <orgName xml:lang="it">Rettori in Levante</orgName>
+                  <idno type="Wikipedia">https://it.wikipedia.org/wiki/Reggimenti_veneziani</idno>
+                  <desc xml:lang="en">The term Rettori served as a general designation for the
+                     Venetian governors appointed to administer the Republic’s dominions both
+                     overseas (Stato da Mar) and on the mainland (Stato da Terra). It encompassed a
+                     range of offices combining judicial, administrative, and military authority on
+                     behalf of the central government. For reference, the principal high-ranking
+                     Venetian officials in office at the time of the 1408 commission included:
+                     Girolamo Donà, Capitano of Crete (1408–1411); Roberto Bon, Rettore of Setia
+                     (1407–1409); Michele Duodo, Rettore of Rettimo (1407–1409); Giovanni Cappello,
+                     Rettore of Canea (1408–1409); Francesco Foscarini, Signore di Notte in Crete
+                     (1407–1409); Tommaso Duodo and Vittore Duodo, Giudici of Crete (1407–1408);
+                     Domenico Contarini, Bailo of Corfu (1407–1409); Andrea Giustinian, Castellano
+                     of Modon (1407–1409); Antonio dalle Boccole, Castellano of Coron (1408–1410);
+                     Eustacchio Cocco, Podestà and Capitano of Napoli di Romania (1408–1410); and
+                     Francesco Bembo, Bailo of Negroponte (1405–1408), later succeeded by Nicolò
+                     Venier di Sergio (1408–1410).</desc>
+               </org>
+               <org xml:id="ORG-OF" type="statodamar">
+                  <orgName xml:lang="it">Officiali in Levante</orgName>
+                  <desc xml:lang="en">In the administrative vocabulary of the Venetian Republic, the
+                     term Officiali referred broadly to local functionaries serving under the
+                     authority of the Rettori. It encompassed a wide spectrum of subordinate
+                     offices, including Camerari (treasurers), Notai (notaries), Segretari
+                     (secretaries), and other clerical or fiscal officers. The frequent formula
+                     “rectoribus vel officialibus” found in the commission reflects the hierarchical
+                     yet interdependent relationship between governors and their subordinate
+                     personnel; the former exercising delegated sovereignty, the latter ensuring its
+                     practical implementation at the local level.</desc>
+               </org>
+               <org xml:id="ORG-CO" type="statodamar">
+                  <orgName xml:lang="it">Consiglieri in Levante</orgName>
+                  <desc xml:lang="en">The Consiglieri in the Venetian overseas territories were
+                     local councillors who assisted the Rettori, the governors representing Venice’s
+                     authority in its overseas possessions. Typically two in number, the Consiglieri
+                     acted as advisors and as a check on the Rettori’s power, participating in
+                     deliberations, financial administration, and judicial decisions. They
+                     represented the Republic’s principle of shared governance and oversight,
+                     ensuring that no single official exercised authority unchecked. Their presence
+                     in major centres such as Crete, Corfu, and Negroponte reflected Venice’s effort
+                     to replicate its republican administrative model across the Stato da
+                     Mar.</desc>
+               </org>
+               <org xml:id="ORG-CA" type="statodamar">
+                  <orgName xml:lang="it">Capitani in Levante</orgName>
+                  <desc xml:lang="en">The Capitani in the Venetian overseas territories were
+                     high-ranking military and administrative officials responsible for the defence
+                     and supervision of key maritime and overseas centres. They commanded naval and
+                     land forces, safeguarded trade routes, and coordinated military operations
+                     across the Stato da Mar. In major possessions such as Crete, the Capitano also
+                     exercised judicial and political authority alongside the Rettori, particularly
+                     in matters of security and maritime law. Their role embodied the dual character
+                     of Venetian rule overseas, where military command and civil administration were
+                     closely intertwined to protect the Republic’s commercial and strategic
+                     interests in the eastern Mediterranean.</desc>
+               </org>
+               <org xml:id="ORG-BN" type="statodamar">
+                  <orgName xml:lang="it">Bailo e Capitano di Negroponte</orgName>
+                  <idno type="Wikipedia">https://en.wikipedia.org/wiki/Bailo_of_Negroponte</idno>
+                  <desc xml:lang="en">The Bailo of Negroponte was the Venetian governor and military
+                     commander of the island of Negroponte (modern-day Euboea) during the period of
+                     Venetian rule. The title combined both civil and military authority, reflecting
+                     Venice’s practice of uniting administrative and defensive responsibilities in
+                     key overseas territories.</desc>
+               </org>
+               <org xml:id="ORG-CN" type="statodamar">
+                  <orgName xml:lang="it">Consiglieri di Negroponte</orgName>
+                  <desc xml:lang="en"> The Consiglieri di Negroponte were Venetian noble officials
+                     appointed to assist the Bailo e Capitano di Negroponte in the governance of the
+                     island. Typically two in number, they acted as councillors and institutional
+                     counterweights, participating in deliberations on administrative, fiscal, and
+                     judicial matters. Their role reflected the Republic’s principle of collegial
+                     governance and oversight, ensuring that executive authority in this
+                     strategically important overseas territory was exercised collectively rather
+                     than by a single magistrate. </desc>
+               </org>
+               <org xml:id="ORG-DC" type="statodamar">
+                  <orgName xml:lang="it">Duca di Creta</orgName>
+                  <desc xml:lang="en">The Duca di Creta was the highest Venetian official on the
+                     island of Crete, serving as both civil governor and military commander.
+                     Appointed directly by the Venetian Senato, the Duke represented the authority
+                     of the Republic in its largest and most important overseas possession. He
+                     presided over the island’s councils, oversaw the Rettori of the Cretan
+                     districts, administered justice, and coordinated the defence of the island.
+                     Residing in Candia (modern-day Heraklion), the Duca di Creta embodied Venice’s
+                     sovereign presence in the eastern Mediterranean and functioned as the central
+                     link between the overseas administration and the government of the
+                     Republic.</desc>
+               </org>
+               <org xml:id="ORG-CC" type="statodamar">
+                  <orgName xml:lang="it">Camera di Creta</orgName>
+                  <desc xml:lang="en">The Camera di Creta was the central financial office of the
+                     Venetian administration in Crete. It managed the revenues, expenditures, and
+                     fiscal records of the island, ensuring the proper collection of taxes, rents,
+                     and customs duties on behalf of the Venetian Republic. The office was
+                     supervised by appointed officials, often under the oversight of the Rettori and
+                     the Duca di Creta, who were responsible for maintaining detailed account books
+                     and forwarding financial reports to Venice. The Camera di Creta thus played a
+                     crucial role in integrating Crete’s economy into the broader fiscal network of
+                     the Stato da Mar, ensuring transparency and accountability within the local
+                     administration.</desc>
+               </org>
+               <org xml:id="ORG-CG" type="naval">
+                  <orgName xml:lang="it">Capitano del Golfo</orgName>
+                  <idno type="Wikipedia">https://en.wikipedia.org/wiki/Captain_of_the_Gulf</idno>
+                  <desc xml:lang="en">The Capitano del Golfo was a senior naval commander of the
+                     Venetian Republic responsible for overseeing the security of the Gulf of Venice
+                     and the main maritime routes of the eastern Adriatic. Often stationed at Corfu,
+                     he commanded a squadron of galleys tasked with protecting merchant convoys,
+                     combating piracy, and supervising the coastal fortresses and ports under
+                     Venetian control. The Capitano del Golfo also held limited administrative and
+                     judicial authority in maritime matters, ensuring compliance with Venetian naval
+                     laws. His office was essential to maintaining safe navigation and asserting
+                     Venice’s maritime dominance across the Adriatic, which was regarded as the
+                     “Venetian Gulf.”</desc>
+               </org>
+               <org xml:id="ORG-SO" type="naval">
+                  <orgName xml:lang="it">Sopracomito</orgName>
+                  <idno type="Wikipedia">https://en.wikipedia.org/wiki/Sopracomito</idno>
+                  <desc xml:lang="en">The Sopracomito was a Venetian naval officer commanding an
+                     individual galley within the Republic’s fleet. Subordinate to higher-ranking
+                     officials such as the Capitano del Golfo, the Sopracomito was responsible for
+                     the discipline, navigation, and combat readiness of his vessel and crew. His
+                     duties included enforcing maritime regulations, overseeing trade or military
+                     missions, and ensuring the galley’s provisioning and maintenance. The position
+                     required both seafaring expertise and administrative ability, as the
+                     Sopracomito represented Venice’s naval authority in the ports and waters of the
+                     Stato da Mar.</desc>
+               </org>
+               <org xml:id="ORG-CP" type="naval">
+                  <orgName xml:lang="it">Capitani navali</orgName>
+                  <desc xml:lang="en">The Capitani were a category of Venetian naval officers
+                     responsible for commanding armed ships within the fleets of the Republic of
+                     Venice. In the wider structure of maritime magistratures, the term encompassed
+                     both ship captains and superior officers, including the sopracomito, who
+                     supervised discipline, navigation, and military readiness aboard galleys and
+                     coordinated operations with other units of the fleet.</desc>
+               </org>
+            </listOrg>
+            <listPerson>
+               <person xml:id="Gualterius">
+                  <persName>
+                     <forename>Gualterius / Walterius</forename>
+                  </persName>
+                  <sex>M</sex>
+               </person>
+               <person xml:id="GualEpLuni">
+                  <persName>
+                     <forename>Gualterius</forename>
+                  </persName>
+                  <sex>M</sex>
+                  <occupation n="1">episcopus Lunensis</occupation>
+                  <note>Gualtiero II, vescovo di Luni, attestato la prima volta il <ref
+                        target="#LXXXVII_104" type="doc">5 novembre 1193</ref> e l'ultima il <ref
+                        target="#CI_118" type="doc"> 2 aprile 1212</ref>.</note>
+               </person>
+               <person xml:id="PER-MS">
+                  <persName>
+                     <forename>Michele</forename>
+                     <surname>Steno</surname>
+                     <roleName ref="#ORG-DG" xml:lang="it">Doge di Venezia</roleName>
+                  </persName>
+                  <birth when="1331">1331</birth>
+                  <death when="1413-12-26">26 December 1413</death>
+                  <occupation xml:lang="en">Venetian nobleman and statesman; chief magistrate of the
+                     Republic of Venice</occupation>
+                  <idno type="VIAF">172572416</idno>
+                  <idno type="Wikipedia">https://en.wikipedia.org/wiki/Michele_Steno</idno>
+                  <note xml:lang="en">Michele Steno (1331–1413) was a Venetian statesman who served
+                     as the 63rd Doge of Venice from December 1, 1400 until his death. He is
+                     remembered as a crucial ruler for establishing the dominions of the Terraferma
+                     in the aftermath of the War of Padua, marking a turning point in the Republic’s
+                     transition toward mainland expansion and consolidation of its statehood.</note>
+               </person>
+               <person xml:id="PER-AB">
+                  <persName>
+                     <forename>Andrea</forename>
+                     <surname>Barbaro</surname>
+                     <roleName ref="#ORG-SI" xml:lang="it">Sindico Inquisitore</roleName>
+                  </persName>
+                  <occupation xml:lang="en">Venetian nobleman and magistrate</occupation>
+                  <event type="appointment" when="1408">
+                     <desc xml:lang="en">Appointed as Sindico Inquisitore in 1408, overseeing Crete,
+                        by ducal commission of Doge Michele Steno.</desc>
+                  </event>
+                  <event type="office" from="1421" to="1423">
+                     <desc xml:lang="en">Probably identical with the Andrea Barbaro who later served
+                        as Castellan of Modon and Coron from 1421 to 1423.</desc>
+                  </event>
+                  <note xml:lang="en">Andrea Barbaro was a Venetian nobleman appointed as a Sindico
+                     Inquisitore in 1408, overseeing Crete. He is probably the same Andrea Barbaro
+                     who was later appointed Castellan of Modon and Coron from 1421 to 1423.</note>
+               </person>
+               <person xml:id="PER-JM">
+                  <persName>
+                     <forename>Jacopo</forename>
+                     <surname>Michiel</surname>
+                     <roleName ref="#ORG-SI" xml:lang="it">Sindico Inquisitore</roleName>
+                  </persName>
+                  <occupation xml:lang="en">Venetian nobleman and magistrate</occupation>
+                  <event type="appointment" when="1408">
+                     <desc xml:lang="en">Appointed as Sindico Inquisitore in 1408, overseeing Crete,
+                        by ducal commission of Doge Michele Steno.</desc>
+                  </event>
+                  <note xml:lang="en">Jacopo Michiel was a Venetian nobleman appointed as a Sindico
+                     Inquisitore in 1408, overseeing Crete.</note>
+               </person>
+               <person xml:id="PER-GE">
+                  <persName>
+                     <forename>Giovanni</forename>
+                     <surname>Emo</surname>
+                     <roleName ref="#ORG-SI" xml:lang="it">Sindico Inquisitore</roleName>
+                  </persName>
+                  <occupation xml:lang="en">Venetian nobleman and magistrate</occupation>
+                  <event type="appointment" when="1408">
+                     <desc xml:lang="en">Appointed as Sindico Inquisitore in 1408, overseeing Corfu,
+                        Modon, Coron, Napoli di Romania and Negroponte, by ducal commission of Doge
+                        Michele Steno.</desc>
+                  </event>
+                  <event type="travel" when="1408">
+                     <desc xml:lang="en">Sailed onward from Modon toward Negroponte; explicitly
+                        ordered to accompany the newly appointed Bailo e capitano of Negroponte,
+                        Nicolò Venier, and proceed to Corfu, Coron and Napoli di Romania.</desc>
+                  </event>
+                  <event type="investigation" when="1410">
+                     <desc xml:lang="en">Upon the commissioners’ return to Venice (around 1410), the
+                        Avogadori del Comun received a denunciation alleging Emo had been found at
+                        night concealed beneath the bed of Margarita Palmeria in Modon, intending
+                        illicit relations with her adoptive daughter, Maria; the castellans of Modon
+                        and Coron investigated and confirmed the charges.</desc>
+                  </event>
+                  <event type="sentence" when="1414-03-09">
+                     <desc xml:lang="en">Formally condemned to a fine of <num type="currency"
+                           value="100">100 lire</num>.</desc>
+                  </event>
+                  <note xml:lang="en">Giovanni Emo was a Venetian nobleman appointed as a Sindaco
+                     Inquisitore in 1408, overseeing Corfu, Modon, Coron, Napoli di Romania, and
+                     Negroponte. The 1408 itinerary instructed Emo and Tron to accompany Nicolò
+                     Venier to Negroponte and continue their inspections across the Levante. Unlike
+                     his colleagues, Emo’s career was soon overshadowed by scandal. Upon the
+                     commissioners’ return to Venice around 1410, the Avogadori del Comun received a
+                     denunciation alleging that Emo had been discovered at night concealed beneath
+                     the bed of a certain Margarita Palmeria in Modon, with the intention of
+                     engaging in illicit relations with Palmeria’s adoptive daughter, Maria. The
+                     castellans of Modon and Coron were ordered to investigate the matter, and after
+                     due inquiry, the charges were confirmed. On 9 March 1414, Emo was formally
+                     condemned to a fine of 100 lire, a sentence which, although modest in financial
+                     terms, carried symbolic weight given the dignity of his office.</note>
+               </person>
+               <person xml:id="PER-LT">
+                  <persName>
+                     <forename>Luca</forename>
+                     <surname>Tron</surname>
+                     <roleName ref="#ORG-SI" xml:lang="it">Sindico Inquisitore</roleName>
+                  </persName>
+                  <occupation xml:lang="en">Venetian nobleman and magistrate</occupation>
+                  <event type="appointment" when="1408">
+                     <desc xml:lang="en">Appointed as Sindico Inquisitore in 1408, overseeing Corfu,
+                        Modon, Coron, Napoli di Romania and Negroponte, by ducal commission of Doge
+                        Michele Steno.</desc>
+                  </event>
+                  <event type="travel" when="1408">
+                     <desc xml:lang="en">Sailed onward from Modon toward Negroponte; explicitly
+                        ordered to accompany the newly appointed Bailo e capitano of Negroponte,
+                        Nicolò Venier, and proceed to Corfu, Coron and Napoli di Romania.</desc>
+                  </event>
+                  <event type="office" when="1414">
+                     <desc xml:lang="en">Served again as Sindico.</desc>
+                  </event>
+                  <event type="governorship">
+                     <desc xml:lang="en">Along with his brother Paolo (Sindico in 1420), later held
+                        governorships in Crete, Traù (Trogir) and Zara (Zadar).</desc>
+                  </event>
+                  <note xml:lang="en">Luca Tron of Donato was a Venetian nobleman appointed as a
+                     Sindaco Inquisitore in 1408, overseeing Corfu, Modon, Coron, Napoli di Romania,
+                     and Negroponte. He later served again as Sindico (1414), and, together with his
+                     brother Paolo (also Sindico in 1420), went on to hold governorships in Crete,
+                     Traù and Zara. The 1408 itinerary instructed Emo and Tron to accompany Nicolò
+                     Venier to Negroponte and continue their inspections across the Levante.</note>
+               </person>
+               <person xml:id="PER-LM">
+                  <persName>
+                     <forename>Ludovico</forename>
+                     <surname>Morosini</surname>
+                     <roleName ref="#ORG-DC" xml:lang="it">Duca di Creta</roleName>
+                  </persName>
+                  <occupation xml:lang="en">Venetian nobleman and overseas governor</occupation>
+                  <event type="office" from="1407" to="1409">
+                     <desc xml:lang="en">Served as Duca di Creta, presiding over the ducal council
+                        and coordinating the rectors and captains of the Cretan districts.</desc>
+                  </event>
+                  <note xml:lang="en">Ludovico Morosini served as Duca di Creta from 1407 to 1409.
+                     As the senior Venetian official on the island, he presided over the ducal
+                     council and coordinated the rectors and captains of the Cretan
+                     districts.</note>
+               </person>
+               <person xml:id="PER-NV">
+                  <persName>
+                     <forename>Nicolò</forename>
+                     <surname>Venier</surname>
+                     <roleName ref="#ORG-BN" xml:lang="it">Bailo e Capitano di Negroponte</roleName>
+                  </persName>
+                  <occupation xml:lang="en">Venetian nobleman and overseas governor</occupation>
+                  <event type="appointment" when="1408">
+                     <desc xml:lang="en">Appointed Bailo e Capitano of Negroponte for a two-year
+                        term (1408–1410).</desc>
+                  </event>
+                  <event type="travel" when="1408">
+                     <desc xml:lang="en">At the time the Sindici received their commission he was
+                        stationed in Modon. Giovanni Emo and Luca Tron were ordered to embark on the
+                        Negroponte galley arriving at Modon to join Nicolò Venier on his journey to
+                        Negroponte.</desc>
+                  </event>
+                  <note xml:lang="en">Nicolò Venier of Sergio was a Venetian nobleman, son of the
+                     late Sergio Venier. He was appointed Bailo of Negroponte and held the office
+                     for two years (1408–1410). At the time the Sindici received their commission he
+                     was stationed in Modon. Giovanni Emo and Luca Tron, traveling toward
+                     Negroponte, were to board the Negroponte galley arriving in Modon in order to
+                     embark ser Nicolò Venier.</note>
+               </person>
+               <person xml:id="PER-FL">
+                  <persName>
+                     <forename>Francesco</forename>
+                     <surname>Leono</surname>
+                     <roleName ref="#ORG-CN" xml:lang="it">Consigliere di Negroponte</roleName>
+                  </persName>
+                  <occupation xml:lang="en">Venetian nobleman and overseas official</occupation>
+                  <note xml:lang="en">Francesco Leono was a Venetian nobleman who served as
+                     Consigliere di Negroponte at the time when the Sindici received their
+                     commission, assisting the Bailo e Capitano di Negroponte in the administration
+                     of the island.</note>
+               </person>
+               <person xml:id="PER-PG">
+                  <persName>
+                     <forename>Pietro</forename>
+                     <surname>Gradenigo</surname>
+                     <roleName ref="#ORG-BN" xml:lang="it">Consigliere di Negroponte</roleName>
+                  </persName>
+                  <occupation xml:lang="en">Venetian nobleman and overseas official</occupation>
+                  <note xml:lang="en">Francesco Leono was a Venetian nobleman who served as
+                     Consigliere di Negroponte at the time when the Sindici received their
+                     commission, assisting the Bailo e Capitano di Negroponte in the administration
+                     of the island.</note>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <place xml:id="PLA-VE">
+                  <placeName type="original" xml:lang="la">Venetia</placeName>
+                  <placeName type="translated" xml:lang="en">Venice</placeName>
+                  <placeName type="translated" xml:lang="it">Venezia</placeName>
+                  <placeName type="translated" xml:lang="el">Βενετία</placeName>
+                  <location>
+                     <geo>45.4386 12.3267</geo>
+                  </location>
+                  <idno type="TGN">7018159</idno>
+                  <idno type="Wikipedia">https://en.wikipedia.org/wiki/Venice</idno>
+                  <note xml:lang="en">Venice, in the early 15th century, was the political and
+                     administrative centre of a dominant maritime republic, controlling key trade
+                     routes across the Eastern Mediterranean. As the seat of the major councils and
+                     the ducal chancery, it was the place where the Sindici Inquisitori received
+                     their commission, swore their oath, and to which they were required to return
+                     with their findings. Venice thus served both as the point of departure and the
+                     final locus of accountability for their mission.</note>
+               </place>
+               <place xml:id="PLA-PD">
+                  <placeName type="original" xml:lang="la">Ducale Palatium</placeName>
+                  <placeName type="translated" xml:lang="en">Doge’s Palace</placeName>
+                  <placeName type="translated" xml:lang="it">Palazzo Ducale</placeName>
+                  <placeName type="translated" xml:lang="el">Παλάτσο Ντουκάλε</placeName>
+                  <location>
+                     <geo>45.4336 12.3399</geo>
+                  </location>
+                  <idno type="Wikipedia">https://en.wikipedia.org/wiki/Doge%27s_Palace</idno>
+                  <note xml:lang="en">The Doge’s Palace in Venice, the seat of the Doge and central
+                     government of the Republic of Venice, located next to St Mark’s Basilica. It is
+                     the place where the Sindici received their commission in April 1408 and where
+                     they were required to present their findings upon their return.</note>
+               </place>
+               <place xml:id="PLA-CF">
+                  <placeName type="original" xml:lang="la">Corphoy</placeName>
+                  <placeName type="translated" xml:lang="en">Corfu</placeName>
+                  <placeName type="translated" xml:lang="it">Corfù</placeName>
+                  <placeName type="translated" xml:lang="el">Κέρκυρα</placeName>
+                  <location>
+                     <geo>39.6200 19.9197</geo>
+                  </location>
+                  <idno type="TGN">7010883</idno>
+                  <idno type="Wikipedia">https://en.wikipedia.org/wiki/Corfu</idno>
+                  <note xml:lang="en">Corfu, in the early 15th century, was a key Venetian
+                     stronghold in the Levante, controlling the maritime routes linking the Adriatic
+                     to the Ionian Sea. After more than a century under the Kingdom of Naples, the
+                     island was secured by Venice in 1386 amid weakening Angevin authority.
+                     Throughout the following centuries it developed into the most important
+                     Venetian outpost outside the Adriatic. In 1408 it constituted one of the
+                     primary stations of the Sindici Inquisitori assigned to Romania, who were
+                     instructed to examine the conduct of local rectors and officials and to
+                     collaborate with the local Consiglio in their inquiries.</note>
+               </place>
+               <place xml:id="PLA-MO">
+                  <placeName type="original" xml:lang="la">Mothoni</placeName>
+                  <placeName type="translated" xml:lang="en">Modon</placeName>
+                  <placeName type="translated" xml:lang="it">Modone</placeName>
+                  <placeName type="translated" xml:lang="el">Μεθώνη</placeName>
+                  <location>
+                     <geo>36.8167 21.7000</geo>
+                  </location>
+                  <idno type="TGN">1042133</idno>
+                  <idno type="Wikipedia">https://en.wikipedia.org/wiki/Methoni,_Messenia</idno>
+                  <note xml:lang="en">Modon (modern-day Methoni) was one of the two fortified
+                     Venetian strongholds in Morea, acquired in 1209 and thereafter developed into a
+                     major commercial and military station controlling the passage between the
+                     Ionian and Aegean Seas. In the 1408 commission, Modon appears as the principal
+                     stop of the state galley transporting the Sindici inquisitori to the Levante.
+                     It was the place where the four officials were instructed to disembark and
+                     separate, with one pair proceeding to Crete and the other continuing their
+                     itinerary through the possessions of Romania. This role highlights the city's
+                     logistical importance within the maritime routes that connected Venice with its
+                     overseas dominions.</note>
+               </place>
+               <place xml:id="PLA-CO">
+                  <placeName type="original" xml:lang="la">Coroni</placeName>
+                  <placeName type="translated" xml:lang="en">Coron</placeName>
+                  <placeName type="translated" xml:lang="it">Corone</placeName>
+                  <placeName type="translated" xml:lang="el">Κορώνη</placeName>
+                  <location>
+                     <geo>36.8000 21.9500</geo>
+                  </location>
+                  <idno type="TGN">1042087</idno>
+                  <idno type="Wikipedia">https://en.wikipedia.org/wiki/Koroni</idno>
+                  <note xml:lang="en">Coron (modern-day Koroni), together with Modon, formed the
+                     strategic pair of Venetian fortresses guarding the southwestern entrance to the
+                     Peloponnese and the sea-lanes linking the Ionian and Aegean Seas. In the early
+                     15th century it served as a key military and logistical base, particularly for
+                     the provisioning and safe passage of Venetian fleets. The Sindici were
+                     instructed to examine the conduct of the local rectorate, to audit fiscal
+                     practices connected with maritime traffic and customs revenues, and to ensure
+                     that no abuses were committed in matters affecting naval supply, trade
+                     supervision, or the rights of local inhabitants.</note>
+               </place>
+               <place xml:id="PLA-CR">
+                  <placeName type="original" xml:lang="la">Creta</placeName>
+                  <placeName type="translated" xml:lang="en">Crete</placeName>
+                  <placeName type="translated" xml:lang="it">Creta</placeName>
+                  <placeName type="translated" xml:lang="el">Κρήτη</placeName>
+                  <location>
+                     <geo>35.1667 25.0000</geo>
+                  </location>
+                  <idno type="TGN">7230421</idno>
+                  <idno type="Wikipedia">https://en.wikipedia.org/wiki/Crete</idno>
+                  <note xml:lang="en">Crete, in the early 15th century, was Venice’s most valuable
+                     overseas possession, serving as a key hub for trade between Europe, Asia, and
+                     North Africa. Its agricultural wealth, particularly in grain, olive oil, and
+                     wine, played a crucial role in the Venetian economy. Under Venetian rule since
+                     1217, the island was heavily fortified to protect maritime routes, but
+                     persistent local resistance, influenced by Byzantine traditions, led to
+                     frequent revolts. For the Sindici assigned to Crete, the island was the primary
+                     field of investigation. They were required to audit the several rectorates,
+                     oversee fiscal administration, examine complaints from local inhabitants, and
+                     ensure that communal resources had not been misused by Venetian
+                     officials.</note>
+               </place>
+               <place xml:id="PLA-NP">
+                  <placeName type="original" xml:lang="la">Napoli Romanie</placeName>
+                  <placeName type="translated" xml:lang="en">Napoli di Romania</placeName>
+                  <placeName type="translated" xml:lang="it">Napoli di Romania</placeName>
+                  <placeName type="translated" xml:lang="el">Ναύπλιο</placeName>
+                  <location>
+                     <geo>37.5683 22.8053</geo>
+                  </location>
+                  <idno type="TGN">7011013</idno>
+                  <idno type="Wikipedia">https://en.wikipedia.org/wiki/Nafplio</idno>
+                  <note xml:lang="en">Napoli di Romania (modern-day Nafplio) was a major Venetian
+                     stronghold in the Peloponnese in the early 15th century. Acquired by Venice in
+                     1388 after periods of shifting Frankish and Byzantine control, the city became
+                     a key administrative and military center that anchored the Republic’s presence
+                     in the Argolic Gulf. For the Sindici operating in the region, Napoli di Romania
+                     served as a principal point of inquiry. They were required to review the
+                     conduct of local officials, scrutinize fiscal management, examine petitions and
+                     complaints from the inhabitants, and ensure the proper functioning of maritime
+                     defenses and commercial regulations.</note>
+               </place>
+               <place xml:id="PLA-NG">
+                  <placeName type="original" xml:lang="la">Nigroponte</placeName>
+                  <placeName type="translated" xml:lang="en">Negroponte</placeName>
+                  <placeName type="translated" xml:lang="it">Negroponte</placeName>
+                  <placeName type="translated" xml:lang="el">Εύβοια</placeName>
+                  <location>
+                     <geo>38.5000 24.0000</geo>
+                  </location>
+                  <idno type="TGN">7002677</idno>
+                  <idno type="Wikipedia">https://en.wikipedia.org/wiki/Euboea</idno>
+                  <note xml:lang="en">Negroponte (modern-day Euboea) was one of the most important
+                     Venetian possessions in the Aegean during the early 15th century. Although the
+                     island had been fragmented among feudal lords after 1204, Venice progressively
+                     consolidated its authority, achieving full control in 1390. Chalcis, the
+                     island’s capital, developed into a major administrative and military center
+                     safeguarding the maritime routes between the Eastern Mediterranean and the
+                     Black Sea. In the commissio of 1408, Negroponte occupies a central logistical
+                     and administrative role: repeated instructions address the bailo, the captain,
+                     and the locally stationed galley, which was formally assigned to transport the
+                     Sindici between the various locations under inquiry. The Sindici were also
+                     ordered to collaborate closely with the local rectorate and to investigate
+                     fiscal, judicial, and military matters crucial to Venice’s hold over the
+                     region.</note>
+               </place>
+               <place xml:id="PLA-CA">
+                  <placeName type="original" xml:lang="la">Canea</placeName>
+                  <placeName type="translated" xml:lang="en">Canea</placeName>
+                  <placeName type="translated" xml:lang="it">La Canea</placeName>
+                  <placeName type="translated" xml:lang="el">Χανιά</placeName>
+                  <location>
+                     <geo>35.5122 24.0156</geo>
+                  </location>
+                  <idno type="TGN">7010843</idno>
+                  <idno type="Wikipedia">https://en.wikipedia.org/wiki/Chania</idno>
+                  <note xml:lang="en">Canea (modern-day Chania), in the early 15th century, was an
+                     important Venetian port on the island of Crete, serving as a key commercial and
+                     military center in the eastern Mediterranean. It was the second most important
+                     city of the island after Candia. It was the final destination of the galley
+                     that transported the Sindici from Venice to Greece. The locality fell under the
+                     direct scrutiny of the Sindici of Crete.</note>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="ASVe_c.1r">
+         <graphic url="images/commissio_ducalis_1408/ASVe_c.1r.jpeg"/>
+      </surface>
+      <surface xml:id="ASVe_c.2r">
+         <graphic url="images/commissio_ducalis_1408/ASVe_c.2r.jpeg"/>
+      </surface>
+      <surface xml:id="ASVe_c.3v">
+         <graphic url="images/commissio_ducalis_1408/ASVe_c.3v.jpeg"/>
+      </surface>
+      <surface xml:id="ASVe_c.3r">
+         <graphic url="images/commissio_ducalis_1408/ASVe_c.3r.jpeg"/>
+      </surface>
+      <surface xml:id="ASVe_c.4v">
+         <graphic url="images/commissio_ducalis_1408/ASVe_c.4v.jpeg"/>
+      </surface>
+      <surface xml:id="ASVe_c.4r">
+         <graphic url="images/commissio_ducalis_1408/ASVe_c.4r.jpeg"/>
+      </surface>
+      <surface xml:id="ASVe_c.5v">
+         <graphic url="images/commissio_ducalis_1408/ASVe_c.5v.jpeg"/>
+      </surface>
+      <surface xml:id="ASVe_c.5r">
+         <graphic url="images/commissio_ducalis_1408/ASVe_c.5r.jpeg"/>
+      </surface>
+      <surface xml:id="Marc_c.58r">
+         <graphic url="images/commissio_ducalis_1408/Marc_c.58r.jpeg"/>
+      </surface>
+      <surface xml:id="Marc_c.59ar">
+         <graphic url="images/commissio_ducalis_1408/Marc_c.59ar.jpeg"/>
+      </surface>
+      <surface xml:id="Marc_c.59bv">
+         <graphic url="images/commissio_ducalis_1408/Marc_c.59bv.jpeg"/>
+      </surface>
+      <surface xml:id="Marc_c.59br">
+         <graphic url="images/commissio_ducalis_1408/Marc_c.59br.jpeg"/>
+      </surface>
+      <surface xml:id="Marc_c.60v">
+         <graphic url="images/commissio_ducalis_1408/Marc_c.60v.jpeg"/>
+      </surface>
+      <surface xml:id="Marc_c.60r">
+         <graphic url="images/commissio_ducalis_1408/Marc_c.60r.jpeg"/>
+      </surface>
+      <surface xml:id="Marc_c.61v">
+         <graphic url="images/commissio_ducalis_1408/Marc_c.61v.jpeg"/>
+      </surface>
+      <surface xml:id="Marc_c.61r">
+         <graphic url="images/commissio_ducalis_1408/Marc_c.61r.jpeg"/>
+      </surface>
+      <surface xml:id="Marc_c.62v">
+         <graphic url="images/commissio_ducalis_1408/Marc_c.62v.jpeg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <front>
+         <div type="synopsis">
+            <head xml:lang="en">Synopsis</head>
+            <p xml:lang="en">This edition offers a scholarly treatment of the ducal commission of
+               1408 appointing four <hi rendition="#ital">Sindici Inquisitori</hi> to audit
+               governance and finances across key nodes of the <hi xml:lang="it">Stato da Mar</hi>.
+               It specifies jurisdiction, procedures for receiving complaints and evidence, powers
+               over officials, and logistical provisions for travel, remuneration, and reporting to
+               Venice. This edition provides a semi-diplomatic transcription of the ASVe witness,
+               with parallel markup enabling future alignment with normalized and translated layers
+               and designed to be read alongside a parallel Marciana witness; see <ref
+                  target="#ASVe_Com1408">ASVe</ref> and <ref target="#Marc_Com1408">Marc.</ref>.</p>
+            <p xml:lang="en">Magistracies and offices: <ref target="#ORG-DG">Doge di Venezia</ref>,
+                  <ref target="#ORG-CM">Comune di Venezia</ref>, <ref target="#ORG-CR">Consiglio dei
+                  Rogati</ref>, <ref target="#ORG-ZO">Zonta</ref>, <ref target="#ORG-MC">Maggior
+                  Consiglio</ref>, <ref target="#ORG-CQ">Consiglio dei Quaranta</ref>, <ref
+                  target="#ORG-AC">Avogadori di Comun</ref>, <ref target="#ORG-UC">Ufficiali alle
+                  Cazude</ref>, <ref target="#ORG-UR">Ufficiali alle Rason Vecchie</ref>, <ref
+                  target="#ORG-CD">Consiglieri Ducali</ref>, <ref target="#ORG-SI">Sindici
+                  Inquisitori</ref>, <ref target="#ORG-RT">Rettori in Levante</ref>, <ref
+                  target="#ORG-OF">Officiali in Levante</ref>, <ref target="#ORG-CO">Consiglieri in
+                  Levante</ref>, <ref target="#ORG-CA">Capitani in Levante</ref>, <ref
+                  target="#ORG-BN">Bailo e Capitano di Negroponte</ref>, <ref target="#ORG-CN"
+                  >Consiglieri di Negroponte</ref>, <ref target="#ORG-DC">Duca di Creta</ref>, <ref
+                  target="#ORG-CC">Camera di Creta</ref>, <ref target="#ORG-CG">Capitano del
+                  Golfo</ref>, <ref target="#ORG-SO">Sopracomito</ref>, <ref target="#ORG-CP"
+                  >Capitani navali</ref>.</p>
+            <p xml:lang="en">Persons cited: <ref target="#PER-MS">Michele Steno</ref>, <ref
+                  target="#PER-AB">Andrea Barbaro</ref>, <ref target="#PER-JM">Jacopo Michiel</ref>,
+                  <ref target="#PER-GE">Giovanni Emo</ref>, <ref target="#PER-LT">Luca Tron</ref>,
+                  <ref target="#PER-LM">Ludovico Morosini</ref>, <ref target="#PER-NV">Nicolò
+                  Venier</ref>, <ref target="#PER-FL">Francesco Leono</ref>, <ref target="#PER-PG"
+                  >Pietro Gradenigo</ref>.</p>
+            <p xml:lang="en">Places: <ref target="#PLA-VE">Venice</ref>, <ref target="#PLA-PD"
+                  >Doge’s Palace</ref>, <ref target="#PLA-CF">Corfu</ref>, <ref target="#PLA-MO"
+                  >Modon</ref>, <ref target="#PLA-CO">Coron</ref>, <ref target="#PLA-CR"
+               >Crete</ref>, <ref target="#PLA-NP">Napoli of Romania</ref>, <ref target="#PLA-NG"
+                  >Negroponte</ref>, <ref target="#PLA-CA">Chania</ref>.</p>
+            <p xml:lang="en">Structure: Chapters encoded as <gi>div</gi>
+                  (<att>type</att>=<val>chapter</val>) with pointers between witnesses (e.g., <ref
+                  target="#ASVe_ch1">ASVe I</ref> ↔ <ref target="#Marc_ch1">Marc. I</ref>), original
+               layout with <gi>pb</gi>/<gi>lb</gi>, and entity markup (<gi>persName</gi>,
+                  <gi>placeName</gi>, <gi>orgName</gi>, <gi>term</gi>) for authority control.</p>
+         </div>
+         <div type="editorialPrinciples">
+            <head>Editorial Note</head>
+            <list>
+               <item xml:lang="en">
+                  <label>Base text:</label> The edition adopts the witness preserved in the Archivio
+                  di Stato di Venezia (<ref target="#ASVe_Com1408">ASVe</ref>) as the base text,
+                  owing to its completeness, archival provenance, and formal ducal-chancery
+                  subscription. The Marciana witness (<ref target="#Marc_Com1408">Marciana</ref>)
+                  was independently transcribed and collated. Earlier partial transcriptions include
+                     <ref target="#BIB-HF">Hopf 1873</ref> and <ref target="#BIB-NT">Noiret
+                     1892</ref>. This is the first edition to collate both surviving original
+                  witnesses.</item>
+               <item xml:lang="en">
+                  <label>Orthography &amp; punctuation:</label> Chancery Latin spelling of the early
+                  15th century is preserved. Punctuation has been lightly regularised to improve
+                  readability. Scribal abbreviations and suspensions are silently expanded following
+                  the principles defined in <gi>editorialDecl</gi>.</item>
+               <item xml:lang="en">
+                  <label>Structure &amp; layout:</label> Chapter divisions (<gi>div</gi>), page
+                  breaks (<gi>pb</gi>), and line breaks (<gi>lb</gi>) reproduce the manuscript
+                  segmentation. Where possible, <att>facs</att> links each <gi>pb</gi> to a
+                  manuscript image. Marginal or interlinear additions are encoded with <gi>add</gi>,
+                  deletions with <gi>del</gi>.</item>
+               <item xml:lang="en">
+                  <label>Textual variation and apparatus:</label> A <hi rend="bold">selective
+                     critical apparatus</hi> records meaningful textual variation between the ASVe
+                  and Marciana witnesses. Variants are encoded using the <gi>app</gi> element, with
+                  the ASVe reading treated as <gi>lem</gi> and the Marciana reading as <gi>rdg</gi>.
+                  Apparatus entries are classified according to the nature of the variation, as
+                  follows: <list>
+                     <item>
+                        <gi>app</gi>
+                        <att>type</att>="grammatical": grammatical or syntactic variation involving
+                        agreement, case, number, person, verbal form, or constructional rephrasing
+                        without a change in semantic content (e.g. <q>habeatis terminum</q> /
+                           <q>datum terminum</q>, <q>vobis</q> / <q>tibi</q>). </item>
+                     <item>
+                        <gi>app</gi>
+                        <att>type</att>="lexical": substantive lexical or phrasal variation,
+                        including the addition or omission of lexical material and reformulations
+                        that affect the explicitness or semantic scope of a passage (e.g.
+                           <q>refutare</q> / <q>ipsum sindacatum refutare</q>). </item>
+                     <item>
+                        <gi>app</gi>
+                        <att>type</att>="numerical": variation in numerical expressions, including
+                        Roman numerals, spelled-out numerals, and quantitative values. </item>
+                     <item>
+                        <gi>app</gi>
+                        <att>type</att>="omission": explicit additions or omissions of words or
+                        phrases between witnesses. </item>
+                     <item>
+                        <gi>app</gi>
+                        <att>type</att>="orthographic": purely graphic or orthographic variation,
+                        including spelling differences, scribal errors, and variant written forms of
+                        the same word (e.g. <q>delongatio</q> / <q>elongatio</q>, <q>furantum</q> /
+                           <q>furatum</q>). </item>
+                     <item>
+                        <gi>app</gi>
+                        <att>type</att>="paratext": paratextual or structural variation, such as
+                        headings, rubrics, titles, or other non-running-text elements. </item>
+                     <item>
+                        <gi>app</gi>
+                        <att>type</att>="transposition": reordering of identical lexical material or
+                        syntactic constituents without semantic or grammatical alteration (e.g.
+                           <q>libertatem plenam</q> / <q>plenam libertatem</q>). </item>
+                  </list> Minor spelling variation, capitalization, and routine punctuation
+                  differences are not recorded. Apparatus encoding follows <gi>variantEncoding</gi>
+                  <att>method</att>="parallel-segmentation" and <att>location</att>="inline".</item>
+               <item xml:lang="en">
+                  <label>Numeric normalization:</label> All numerical expressions are encoded with
+                     <gi>num</gi> and normalized in <att>value</att>. Medieval forms (Roman
+                  numerals, monetary sums, counts, dates) remain diplomatic in the text.</item>
+               <item xml:lang="en">
+                  <label>Dates and measures:</label> Dates use <gi>date</gi> with normalised
+                     <att>when</att>. Measures and sums specify <att>type</att> (e.g. "currency",
+                  "time", "count"). No modern conversions are introduced.</item>
+               <item xml:lang="en">
+                  <label>Encoding rationale:</label> Encoding aims to be descriptive rather than
+                  interpretative, representing observable textual or codicological features rather
+                  than conjectural readings, ensuring transparency and reproducibility.</item>
+               <item xml:lang="en">
+                  <label>People, places &amp; institutions:</label> Named entities
+                     (<gi>persName</gi>, <gi>placeName</gi>, <gi>orgName</gi>) are linked to
+                  external authority data where available (VIAF, GeoNames, Wikipedia). Coordinates
+                  use decimal degrees.</item>
+               <item xml:lang="en">
+                  <label>Assisted transcription:</label> Transkribus (v. 1.19.0) and ChatGPT (GPT-5)
+                  were used to check palaeographic consistency during transcription. All AI-assisted
+                  suggestions were manually verified against the manuscripts.</item>
+            </list>
+         </div>
+         <div type="relations">
+            <head xml:lang="en">Related Witnesses</head>
+            <listWit>
+               <witness xml:id="WIT-ASVe" corresp="#ASVe_Com1408">
+                  <abbr>ASVe</abbr>
+                  <desc xml:lang="en"> Manuscript preserved in the Archivio di Stato di Venezia.
+                     This witness serves as the base text of the present edition. </desc>
+               </witness>
+               <witness xml:id="WIT-Marc" corresp="#Marc_Com1408">
+                  <abbr>Marc.</abbr>
+                  <desc xml:lang="en"> Parallel witness preserved in the Biblioteca Nazionale
+                     Marciana. It is presented alongside the base text for comparison of textual
+                     variants. </desc>
+               </witness>
+            </listWit>
+         </div>
+      </front>
+      <body>
+         <div type="witness" xml:id="wit-ASVe" n="ASVe" xml:lang="la">
+            <head type="presentation" xml:lang="en" rend="bold italic">TEI-XML encoding of the ducal
+               commission issued in 1408 in the name of Doge Michele Steno, based on the manuscript
+               preserved in the Archivio di Stato di Venezia.</head>
+            <pb n="1" facs="#ASVe_c.1r"/>
+            <div type="title" n="ΑSVe Witness" xml:id="ASVe_title" corresp="#Marc_title">
+               <p><app type="paratext">
+                     <lem wit="#WIT-ASVe">Commissio egregiorum et nobilium virorum dominorum
+                           <persName ref="#PER-AB">Andree <lb/>Barbaro</persName> et <persName
+                           ref="#PER-JM">Jacobi Michael</persName>, honorabilium <orgName
+                           type="office" ref="#ORG-SI">sindicorum</orgName> insule <lb/><placeName
+                           ref="#PLA-CR">Crete</placeName>.</lem>
+                     <rdg wit="#WIT-Marc"> Commissio egregiorum et nobilium virorum dominorum
+                           <persName ref="#PER-GE">Johannis Aymo</persName> et <persName
+                           ref="#PER-LT">Luce Truno</persName>, honorabilium <orgName type="office"
+                           ref="#ORG-SI">sindicorum</orgName> ad partes <lb/>Romanie. </rdg>
+                  </app>
+               </p>
+            </div>
+            <pb n="2" facs="#ASVe_c.2r"/>
+            <div type="chapter" n="1" xml:id="ASVe_ch1" corresp="#Marc_ch1">
+               <head>I</head>
+               <p><lb/>Nos <persName ref="#PER-MS">Michael Steno</persName>, dei gratia <orgName
+                     type="office" ref="#ORG-DG">dux venetiarum et cetera</orgName>, committimus
+                  vobis nobilibus viris <persName ref="#PER-AB">Andree Barbaro</persName> et
+                     <persName ref="#PER-JM">Jacopo <lb/>Michael</persName>, <persName ref="#PER-GE"
+                     >Johanni Aymo </persName> et <persName ref="#PER-LT">Luce Truno</persName>,
+                  dilectis civibus et fidelibus nostris, quod pro bono hortamine, salute et
+                  conservatione <lb/>locorum nostrorum <placeName ref="#PLA-CF">Corphoy</placeName>,
+                     <placeName ref="#PLA-MO">Mothoni</placeName>, <placeName ref="#PLA-CO">Coroni
+                  </placeName>, insule <placeName ref="#PLA-CR">Crete</placeName>, <placeName
+                     ref="#PLA-NP">Neapolis Romanie</placeName> et <placeName ref="#PLA-NG"
+                     >Nigropontis</placeName>, et ut subditi et <lb/>fideles nostri illarum partium
+                  sentiant et videant dulcedinem et benignitatem nostram, et ad ipsorum statum
+                  pacificum <lb/>et tranquillum nos plurimum vigilare in nolendo aut permittendo
+                  quod aliquis subditus noster oblique vel indirecte tractetur <lb/>et contra
+                  debitum rationis de nostro mandato, vos <persName ref="#PER-AB">Andreas
+                     Barbaro</persName> et <persName ref="#PER-JM">Jacobus Michael</persName> ire
+                  debeatis in nostros sollemnes <lb/><orgName type="office" ref="#ORG-SI">provisores
+                     et sindicos</orgName> ad partes antedictas eundo, solummodo per totam insulam
+                     <placeName ref="#PLA-CR">Crete</placeName> et conferendo cum <orgName
+                     type="office" ref="#ORG-DC">ducha</orgName>
+                  <note type="explanatory" resp="#EDI-DM">Identified as <persName ref="#PER-LM"
+                        >Ludovico Morosini</persName>, <orgName type="office" ref="#ORG-DC">Duca di
+                        Creta</orgName> (1407–1409).</note>
+                  <lb/>
+                  <orgName type="office" ref="#ORG-CO">consiliariis</orgName> et <app
+                     type="grammatical">
+                     <lem wit="#WIT-ASVe">
+                        <orgName type="office" ref="#ORG-CA">capitaneis</orgName>
+                     </lem>
+                     <rdg wit="#WIT-Marc">
+                        <orgName type="office" ref="#ORG-CA">capitaneo</orgName>
+                     </rdg>
+                  </app> nostris <placeName ref="#PLA-CR">Crete</placeName> et aliis nostris
+                     <orgName type="office" ref="#ORG-RT">rectoribus</orgName>
+                  <app type="lexical">
+                     <lem wit="#WIT-ASVe">insule <placeName ref="#PLA-CR">Crete</placeName></lem>
+                     <rdg wit="#WIT-Marc">dicte insule</rdg>
+                  </app>, cum quibus, habita collatione insimul <lb/>quando vobis utile apparebit,
+                  faciatis publice proclamari quod omnes volentes conqueri et gravare se de
+                  extorsionibus <lb/>aliquibus gravaminibus et violentiis vel aliis insolenciis seu
+                  malis, que quomodolibet recepissent a <orgName type="office" ref="#ORG-RT"
+                     >rectoribus</orgName> vel <orgName type="office" ref="#ORG-OF"
+                     >offi<lb/>cialibus</orgName> nostris, qui in partibus illis extitissent a <app
+                     type="numerical">
+                     <lem wit="#WIT-ASVe">
+                        <num type="time" value="10">decem</num>
+                     </lem>
+                     <rdg wit="#WIT-Marc">
+                        <num type="time" value="10">X</num>
+                     </rdg>
+                  </app> annis citra, debeant comparere coram vobis ad deponen<lb/>dum querelas suas
+                  ordinate et ad dandum et producendum testificationes, probationes et oppositiones
+                  suas, assignando<lb/>eis illum terminum vel illos terminos super hoc quos
+                  videbitis competentes, verum tamen relinquimus in libertate vestra <lb/><app
+                     type="grammatical">
+                     <lem wit="#WIT-ASVe">incipiendi in illa terra</lem>
+                     <rdg wit="#WIT-Marc">incipiendum illa terra</rdg>
+                  </app>, loco sive castro prout vobis melius et utilius apparebit.</p>
+            </div>
+            <div type="chapter" n="2" xml:id="ASVe_ch2" corresp="#Marc_ch2">
+               <head>II</head>
+               <p><lb/>Vos autem <persName ref="#PER-GE">Johannes Aymo</persName> et <persName
+                     ref="#PER-LT">Lucas Truno</persName> ire debeatis in nostros sollemnes <orgName
+                     type="office" ref="#ORG-SI">provisores et sindicos</orgName> ad dictas partes
+                  eundo <lb/>solummodo ad partes <placeName ref="#PLA-CF">Corphoy</placeName>,
+                     <placeName ref="#PLA-MO">Mothoni</placeName>, <placeName ref="#PLA-CO"
+                     >Coroni</placeName>, <placeName ref="#PLA-NP">Neapolis Romanie</placeName> et
+                     <placeName ref="#PLA-NG">Nigropontis</placeName>, incipiendo in illo loco
+                  <lb/>qui vobis magis comodus et utilis apparebit, in quibus et quolibus eorum
+                  audiatis, observetis et faciatis in <lb/>omnibus et per omnia, ut de insula
+                     <placeName ref="#PLA-CR">Crete</placeName> superius dictum est et commissum
+                  aliis sociis vestris.</p>
+            </div>
+            <div type="chapter" n="3" xml:id="ASVe_ch3" corresp="#Marc_ch3">
+               <head>III</head>
+               <p><lb/>Verum si vos ituri in <placeName ref="#PLA-CR">Cretam</placeName> eritis
+                  expediti de factis vobis commissis, et in redditu vestro reperietis vos in
+                  <lb/>partibus <placeName ref="#PLA-CO">Coroni</placeName> et <placeName
+                     ref="#PLA-MO">Mothoni</placeName> vel in aliis partibus, in quibus alii sotii
+                  vestri non sindicassent, possitis <lb/>etiam et debeatis pro celleri expeditione
+                  inquirere et examinare et sindicare, ut potestis de aliis vobis commissis. <lb/>Et
+                  si vos omnes <num type="count" value="4">quatuor</num> eritis simul, debeatis
+                  facere et exercere insimul officium vestrum.</p>
+            </div>
+            <div type="chapter" n="4" xml:id="ASVe_ch4" corresp="#Marc_ch4">
+               <head>IIII</head>
+               <p><lb/>Omnes querelas autem cuiscumque condictionis existant, testificationes et
+                  probationes per modum predictum, quas conque<lb/>rentes ipsi volent producere,
+                  faciatis ordinate poni in scriptis, observando modum in inquisitionibus et
+                  querelis, <lb/>quem faciunt et observant nostri <orgName type="office"
+                     ref="#ORG-AC">advocatores comunis</orgName> in <placeName ref="#PLA-VE"
+                     >Venetiis</placeName>, non impediendo seu intromittendo vos de regimi<lb/>nibus
+                  presentibus, sed de regiminibus preteritis inquiratis diligenter et bene secundum
+                  formam huius vestre comissionis. <lb/>Et omnia que examinaveritis et feceritis
+                  tenemini ordinate in redditu vestro portare <placeName ref="#PLA-VE"
+                     >Venetias</placeName>, et cum appli<lb/>cueritis <placeName ref="#PLA-VE"
+                     >Venecias</placeName> omnino infra <num type="time" value="1">unum</num> annum
+                  expedivisse et placitasse in nostris consiliis ordinatis sicut faciunt <lb/>et
+                  facere possunt <orgName type="office" ref="#ORG-AC">advocatores comunis</orgName>,
+                  omnia intromissa per vos, salvis de illis nostris <orgName type="office"
+                     ref="#ORG-RT">rectoribus</orgName> et <orgName type="office" ref="#ORG-OF"
+                     >officialibus</orgName>, qui <lb/>se reperirent in regiminibus vel officiis in
+                  quibus essent. Et ut dicti tales non possint se excusare, tene<lb/>mini dictis
+                     <orgName type="office" ref="#ORG-RT">rectoribus</orgName> et <orgName
+                     type="office" ref="#ORG-OF">officialibus</orgName> vestris literis significare
+                  et committere, quod debeant completo termino vel officio <lb/>suo directe venire
+                  vel mittere <placeName ref="#PLA-VE">Venetias</placeName> suum procuratorem
+                  legitimum ad deffendendum iura sua, alioquin procederetis, <lb/>eorum <app
+                     type="lexical">
+                     <lem wit="#WIT-ASVe">aliqua sua</lem>
+                     <rdg wit="#WIT-Marc">in aliquo</rdg>
+                  </app> absentia non obstante habendo medietatem condemnationum que fient. Et si
+                  qua restarent ad <lb/>expediendum post complementum dictorum terminorum, teneamini
+                  et debeatis omnes scripturas et omnes alios actus et proces <lb/>sus acceptos et
+                  formatos per vos videlicet quaslibet per se presentare et dare nostris <orgName
+                     type="office" ref="#ORG-AC">advocatoribus comunis</orgName>, ut loco
+                  <lb/>vestro facere possint officum predictum. Et dicti <orgName type="office"
+                     ref="#ORG-AC">advocatores comunis</orgName> teneantur omnino ipsas omnes
+                  scripturas <lb/>sibi presentatas videlicet a die presentationis usque <num
+                     type="time" value="6">sex</num> menses expedivisse pro posse suo secundum eorum
+                  bonam conscientiam <lb/>et sub debito sacramenti.</p>
+            </div>
+            <div type="chapter" n="5" xml:id="ASVe_ch5" corresp="#Marc_ch5">
+               <head>V</head>
+               <p><lb/>Insuper tenemini, cum applicueritis <placeName ref="#PLA-VE"
+                     >Venetias</placeName>, infra <num type="time" value="1">unum</num> mensem
+                  legisse et dedisse in scriptis omnes <lb/>scripturas, actus et processus acceptos
+                  et <app type="grammatical">
+                     <lem wit="#WIT-ASVe">formatas</lem>
+                     <rdg wit="#WIT-Marc">formatos</rdg>
+                  </app> per vos, salvis nominibus accusatorum, nostro ducali dominio, <lb/>ut
+                  semper sit informatum de eo quod ducetis et de eo quod restabit ad ducendum. Et
+                  hoc sub pena librarum <lb/><app type="numerical">
+                     <lem wit="#WIT-ASVe">
+                        <num type="currency" value="100">centum</num>
+                     </lem>
+                     <rdg wit="#WIT-Marc">
+                        <num type="currency" value="100">C</num>
+                     </rdg>
+                  </app> pro quolibet vestrum in vestris perperis bonis, et similiter teneamini,
+                  postquam redieritis <placeName ref="#PLA-VE">Venecias</placeName>, <lb/>infra
+                  terminum <num type="time" value="3">trium</num> mensium dedisse in scriptis illos
+                  quos intromiseritis, eorum capitula et alias scrip<lb/>turas solitas dari, et hoc
+                  sub pena librarum <app type="numerical">
+                     <lem wit="#WIT-ASVe">
+                        <num type="currency" value="100">centum</num>
+                     </lem>
+                     <rdg wit="#WIT-Marc">
+                        <num type="currency" value="100">C</num>
+                     </rdg>
+                  </app> cuilibet vestrum pro quolibet intromisso, cui non daretis <lb/>dicta
+                  capitula et alias scripturas.</p>
+            </div>
+            <pb n="3" facs="#ASVe_c.3v"/>
+            <div type="chapter" n="6" xml:id="ASVe_ch6" corresp="#Marc_ch6">
+               <head>VI</head>
+               <p><lb/>Insuper non potestis, postquam redieritis a dicto sindicatu, eligi ad aliquam
+                  aliam rem extra civitatem et corpus <lb/>venetiarum usque ad <num type="time"
+                     value="1">unum</num> annum, sed ad officia et regimina de intus corpus
+                  venetiarum sic. Et <lb/>nichilominus remanere debeatis in dicto sindicatu, non
+                  obstante quod sitis <orgName type="office" ref="#ORG-OF">offitiales</orgName>. Et
+                  non potestis <lb/>etiam postquam redieritis a dicto sindicatu <app type="lexical">
+                     <lem wit="#WIT-ASVe">refutare</lem>
+                     <rdg wit="#WIT-Marc">ipsum sindacatum refutare</rdg>
+                  </app> modo aliquo a die applica<lb/>tionis usque <num type="time" value="1"
+                     >unum</num> annum, sub pena ducatorum <num type="currency" value="100"
+                     >centum</num> auri pro quolibet.</p>
+            </div>
+            <div type="chapter" n="7" xml:id="ASVe_ch7" corresp="#Marc_ch7">
+               <head>VII</head>
+               <p><lb/>Insuper, quia per ultimos <orgName type="office" ref="#ORG-SI">sindicos et
+                     provisores</orgName> nostros destinatos ad dictas partes Levantis formati
+                  <lb/>fuerunt aliqui processus et accepte nonnulle testificationes quas omnes
+                  assignaverunt nostris <orgName type="office" ref="#ORG-AC">advocatoribus
+                     <lb/>comunis</orgName> et sic remanent suspense, et utile sit quod omnes
+                  tractentur equaliter committimus vobis <lb/>quod accipere debeatis a dictis <app
+                     type="omission">
+                     <lem wit="#WIT-ASVe">nostris</lem>
+                     <rdg wit="#WIT-Marc">om.</rdg>
+                  </app>
+                  <orgName type="office" ref="#ORG-AC">advocatoribus comunis</orgName>, omnes
+                  scripturas eis presentatas per ipsos <orgName type="office" ref="#ORG-SI"
+                     >sindicos</orgName>, <lb/>et ipsas portare vobiscum, ut si vobis videbitur
+                  super ipsis de novo accipere alias testificationes <lb/>et formare alios actus,
+                  possitis facere ut potestis de aliis vobis commissis. Et sic teneantur <lb/>dicti
+                     <orgName type="office" ref="#ORG-AC">advocatores</orgName>, eas vobis dare et
+                  assignare.</p>
+            </div>
+            <div type="chapter" n="8" xml:id="ASVe_ch8" corresp="#Marc_ch8">
+               <head>VIII</head>
+               <p><lb/>Et ducale dominium teneatur, pro expeditione predictorum, tam vobis <orgName
+                     type="office" ref="#ORG-SI">provisoribus</orgName> quam <orgName type="office"
+                     ref="#ORG-AC">advocatoribus comunis</orgName>
+                  <lb/>dare consilium et consilia que volueritis et volent, sub pena librarum <app
+                     type="numerical">
+                     <lem wit="#WIT-ASVe">
+                        <num type="currency" value="10">decem</num>
+                     </lem>
+                     <rdg wit="#WIT-Marc">
+                        <num type="currency" value="10">X</num>
+                     </rdg>
+                  </app> pro quolibet consiliario qui de<lb/>negaret et qualibet vice.</p>
+            </div>
+            <div type="chapter" n="9" xml:id="ASVe_ch9" corresp="#Marc_ch9">
+               <head>VIIII</head>
+               <p><lb/>De quibus omnibus suprascriptis penis vel aliqua earum non possit modo aliquo
+                  fieri alicui contrafacienti <lb/>gratia, donum, remissio, recompensatio, termini
+                  elongatio vel aliqua declaratio, sub pena librarum <num type="currency"
+                     value="500">V<hi rend="sup">C</hi></num>
+                  <lb/>pro quolibet consiliario, <app type="grammatical">
+                     <lem wit="#WIT-ASVe">capiente</lem>
+                     <rdg wit="#WIT-Marc">capite</rdg>
+                  </app>, sapiente, vel alio ponente vel consentiente partem in contrarium. Et pre
+                  <lb/>dicta commissa sint nostris <orgName type="office" ref="#ORG-UC">officialibus
+                     de catavere</orgName>, qui inquirere et exigere debeant dictas penas, ha
+                  <lb/>bendo partem ut de aliis sui officii. Et si consilium <app type="omission">
+                     <lem wit="#WIT-ASVe">om.</lem>
+                     <rdg wit="#WIT-Marc">est contra</rdg>
+                  </app> et cettera.</p>
+            </div>
+            <div type="chapter" n="10" xml:id="ASVe_ch10" corresp="#Marc_ch10">
+               <head>X</head>
+               <p><lb/>Insuper, quia in locis nostris <placeName ref="#PLA-CR">Crete</placeName>,
+                     <placeName ref="#PLA-CO">Coroni</placeName> et <placeName ref="#PLA-MO"
+                     >Mothoni</placeName> ac aliorum locorum nostrorum predictorum a bono tempore
+                  <lb/>citra alique rationes frumenti et aliorum bladorum ac quamplurium aliarum
+                  rerum et diversarum nostri comunis non <lb/>fuerunt vise et examinate, et sit
+                  utile pro bono et utilitate nostri <orgName type="organization" ref="#ORG-CM"
+                     >comunis</orgName>, quod generaliter omnes rationes <lb/>nostri <orgName
+                     type="organization" ref="#ORG-CM">comunis</orgName>, non specificando aliquod
+                  tempus, per vos videantur et examinentur, committimus vobis, <lb/>quod debeatis
+                  generaliter videre et diligenter examinare omnes rationes frumenti et aliorum
+                  bladiorum ac om<lb/>nium aliarum rerum spectantium nostro <orgName
+                     type="organization" ref="#ORG-CM">comuni</orgName>, cuiuscumque condictionis
+                  existant, et de quocumque tempore, ut vobis <lb/>videbitur fore necesse, habendo
+                  super hoc illammet libertatem quam habetis de aliis vobis commissis.</p>
+            </div>
+            <div type="chapter" n="11" xml:id="ASVe_ch11" corresp="#Marc_ch11">
+               <head>XI</head>
+               <p><lb/>Insuper debeatis inquirere, si damna et extorsiones facte sint per dictos
+                     <orgName type="office" ref="#ORG-RT">rectores</orgName> et <orgName
+                     type="office" ref="#ORG-OF">offitiales</orgName> contra <lb/>nostrum <orgName
+                     type="organization" ref="#ORG-CM">comune</orgName>, cum illa libertate et modis
+                  omnibus quos habetis de aliis vobis commissis</p>
+            </div>
+            <div type="chapter" n="12" xml:id="ASVe_ch12" corresp="#Marc_ch12">
+               <head>XII</head>
+               <p><lb/>Ceterum reperiendo aliquem in culpa qui foret in partibus illis, habeatis
+                     <app type="transposition">
+                     <lem wit="#WIT-ASVe">libertatem plenam</lem>
+                     <rdg wit="#WIT-Marc">plenam libertatem</rdg>
+                  </app> imponendi <lb/>sibi penam quod personaliter veniat <placeName ref="#PLA-VE"
+                     >Venetias</placeName> vel mittat commissionem ad personam, que possit et debeat
+                  ipsa uti, <lb/>taliter quod sufficiens sit responsator ad consequendam intentionem
+                  dominii. Et vos notificare ei debeatis <lb/>capitula, super quibus debeant fieri
+                  comissiones ad respondendum. Verum si aliquis <orgName type="office" ref="#ORG-OF"
+                     >officialis</orgName> comisisset <lb/>tale quid et sic enorme quod
+                  suspicaremini quod non veniret <placeName ref="#PLA-VE">Venetias</placeName>,
+                  iuxta preceptum sibi factum per <lb/>vos propter gravitatem delicti, tunc in isto
+                  casu vos <orgName type="office" ref="#ORG-SI">provisores</orgName> et <orgName
+                     type="office" ref="#ORG-RT">rector</orgName> loci, existente ipso <lb/><orgName
+                     type="office" ref="#ORG-RT">rectore</orgName> de ipsa opinione vobiscum,
+                  possitis ipsum <orgName type="office" ref="#ORG-OF">offitialem</orgName> facere
+                  personaliter detineri et mitti <placeName ref="#PLA-VE">Venetias</placeName>,
+                  <lb/>sicut vestre discretioni videbitur considerata culpa sua.</p>
+            </div>
+            <pb n="4" facs="#ASVe_c.3r"/>
+            <div type="chapter" n="13" xml:id="ASVe_ch13" corresp="#Marc_ch13">
+               <head>XIII</head>
+               <p><lb/>Insuper, quia fertur quod in insula <placeName ref="#PLA-CR"
+                     >Crete</placeName> et aliis partibus Romanie facta fuit et fit mala
+                  admi<lb/>nistratio bonorum et pecunie nostri <orgName type="organization"
+                     ref="#ORG-CM">comunis</orgName>, habeatis libertatem plenariam inquirendi et
+                  examinandi ac dili<lb/>genter investigandi, tam per viam inquisitionis quam per
+                  testificationes, querelas et scripturas contra omnes, <lb/>qui viderentur vobis
+                  suspecti et male administrasse bona et pecuniam nostri <orgName
+                     type="organization" ref="#ORG-CM">comunis</orgName>, videlicet ab annis
+                     <lb/><app type="numerical">
+                     <lem wit="#WIT-ASVe">
+                        <num type="time" value="10">decem</num>
+                     </lem>
+                     <rdg wit="#WIT-Marc">
+                        <num type="time" value="10">X</num>
+                     </rdg>
+                  </app> citra. Et omnes tales quos culpabiles inveniretis, condemnare et compellere
+                     <app type="omission">
+                     <lem wit="#WIT-ASVe">possitis</lem>
+                     <rdg wit="#WIT-Marc">om.</rdg>
+                  </app> ad restituen<lb/>dum totum illud quod cognoveritis illos indebite
+                  administrasse et male accepisse, per illum modum <lb/>et cum illa libertate
+                  plenaria, quam habent et servant <orgName type="office" ref="#ORG-UR">officiales
+                     rationum</orgName> veterum in <placeName ref="#PLA-VE">Venetiis</placeName>
+                  contra male <lb/>administrantes bona et havere <orgName type="organization"
+                     ref="#ORG-CM">comunis</orgName>, ita quod in isto casu sitis <orgName
+                     type="office" ref="#ORG-UR">offitiales rationum</orgName>. Et de toto eo quod
+                  <lb/>exegeritis habere, debeatis medietatem, et scribatis et mandetis regiminibus
+                     <placeName ref="#PLA-CR">Crete</placeName> et aliorum locorum predictorum
+                  <lb/>quod dare debeant vobis auxilium et favorem, tam de notariis quam de omnibus
+                  aliis, quotiens ab eis <lb/>requisiveritis illud pro dicta executione, contra
+                  quoslibet per vos condemnatos facienda. Quam executio<lb/>nem si complere non
+                  poteritis ante discessum vestrum de partibus in quibus fueritis, committere
+                  debeatis <lb/>illam faciendam <orgName type="office" ref="#ORG-RT"
+                     >rectoribus</orgName> locorum, ubi illam complere non poteritis. Quibus
+                     <orgName type="office" ref="#ORG-RT">rectoribus</orgName> commisimus <lb/>et
+                  efficaciter mandavimus, sicut sibi commiseritis verum si condemnati per vos de
+                  condemnationibus quas <lb/>feceritis contra eos conqueri voluerint, habeant
+                  libertatem recurendi ad nostrum ducale dominium vel ad <lb/>alia loca ad que
+                  recurere possunt illi, qui volunt conqueri de <orgName type="office" ref="#ORG-UR"
+                     >offitialibus rationum</orgName>, et persequi <lb/>jus suum contra vos
+                  provisores et sindicos. Et si fueritis male condemnasse convicti et a condemnatis
+                  <lb/>exegisse, debeatis totum quod exegeritis et habueritis restituere et
+                  medietatem plus pro pena.</p>
+            </div>
+            <div type="chapter" n="14" xml:id="ASVe_ch14" corresp="#Marc_ch14">
+               <head>XIIII</head>
+               <p><lb/>Item habere debeatis de salario pro primis <num type="time" value="4"
+                     >quatuor</num> mensibus ducatos <num type="currency" value="160">CLX</num> auri
+                  pro quolibet, <lb/>et abinde in antea ducatos <num type="currency" value="20"
+                     >XX</num> auri pro quolibet in mense. De quibus ducatis <num type="currency"
+                     value="160">CLX</num> vos <lb/><num type="count" value="2">duo</num>
+                  <orgName type="office" ref="#ORG-SI">sindici</orgName>, qui estis ituri in
+                     <placeName ref="#PLA-CR">Cretam</placeName>, habere debetis, hic in <placeName
+                     ref="#PLA-VE">Venetiis</placeName> ante recessum vestrum, <lb/>ducatos <num
+                     type="currency" value="100">centum</num> auri, et alios ducatos <num
+                     type="currency" value="60">LX</num> habere debetis a <orgName
+                     type="organization" ref="#ORG-CC">camera nostra Crete</orgName>, et
+                  <lb/>similiter alios ducatos <num type="currency" value="20">XX</num> in mense pro
+                  illo tempore quo steteritis extra in dicto sindicatu, ultra dictos <lb/><app
+                     type="numerical">
+                     <lem wit="#WIT-ASVe">
+                        <num type="time" value="4">quatuor</num>
+                     </lem>
+                     <rdg wit="#WIT-Marc">
+                        <num type="time" value="10">IIII</num>
+                     </rdg>
+                  </app> menses. Et sic scribimus et mandamus regimini <placeName ref="#PLA-CR"
+                     >Crete</placeName>, quod deinde vobis faciat <lb/>solutionem predictam. Vos
+                  autem <orgName type="office" ref="#ORG-SI">sindici</orgName> qui ibitis ad partes
+                     <placeName ref="#PLA-NG">Nigropontis</placeName> et Romanie habere <lb/>debetis
+                  totum vestrum salarium predictum hic in <placeName ref="#PLA-VE"
+                     >Venetiis</placeName>. Et insuper de toto eo quod intromittetis <lb/>et
+                  condemnationem et sententiam facietis habere debeatis medietatem. Et potestis
+                  expendere vos <orgName type="office" ref="#ORG-SI">sindici</orgName>
+                  <lb/>ituri in <placeName ref="#PLA-CR">Cretam</placeName> inter vos ambos ducatos
+                     <num type="currency" value="2">duos</num> auri in die, ducendo vobiscum famulos
+                     <lb/><num type="count" value="2">duos</num> pro quolibet, unum notarium cum uno
+                  famulo, et unum <app type="orthographic">
+                     <lem wit="#WIT-ASVe">quocum</lem>
+                     <rdg wit="#WIT-Marc">coquum</rdg>
+                  </app>. Et similiter vos <lb/>alii <num type="count" value="2">duo</num> ituri ad
+                  partes <placeName ref="#PLA-NG">Nigropontis</placeName> et ad alias partes
+                  potestis expendere alios ducatos <lb/><num type="currency" value="2">duos</num>
+                  auri in die, ducendo vobiscum similem familiam, non computatis in his nabulis
+                  navigiorum <lb/>et agociis equorum. Et debetis esse ad <num type="currency"
+                     value="1">unum</num> denarium de omnibus his, de quibus concurretis <lb/>in una
+                  opinione.</p>
+            </div>
+            <div type="chapter" n="15" xml:id="ASVe_ch15" corresp="#Marc_ch15">
+               <head>XV</head>
+               <p><lb/>Et si feceritis aliquam inquisitionem contra aliquem, qui esset extra illum
+                  locum, ubi illam fe<lb/>ceritis, habeatis libertatem, postquam applicueritis
+                     <placeName ref="#PLA-VE">Venetias</placeName>, faciendi officium vobis
+                  commissum per <lb/>modum supradictum contra illum, contra quem inquisiveritis,
+                  usque terminum vobis superius limitatum, <lb/>ita quod teneamini et debeatis vos
+                  expedivisse per totum dictum tempus.</p>
+            </div>
+            <div type="chapter" n="16" xml:id="ASVe_ch16" corresp="#Marc_ch16">
+               <head>XVI</head>
+               <p><lb/>Insuper, declaramus vobis, quod in casu quo in aliquo essetis differentes,
+                  quod quilibet vestrum <lb/>habeat libertatem plenariam inquirendi et
+                  intromittendi, prout possetis, si essetis <lb/>concordes.</p>
+            </div>
+            <pb n="5" facs="#ASVe_c.4v"/>
+            <div type="chapter" n="17" xml:id="ASVe_ch17" corresp="#Marc_ch17">
+               <head>XVII</head>
+               <p><lb/>Quia <add place="above">per</add>
+                  <note type="palaeographic">Added above the line, indicated by a reference
+                     mark.</note> suprascriptam partem de inquirendo contra illos, qui male
+                  administrassent pecuniam <orgName type="organization" ref="#ORG-CM"
+                     >comunis</orgName>, non <lb/>videtur vos <orgName type="office" ref="#ORG-SI"
+                     >provisores et sindicos</orgName> habere libertatem in aliquo casu inquirendi
+                  contra aliquam spetialem <lb/>personam, et sicut fertur publice, aliqui cives et
+                  habitatores ipsorum locorum Romanie pro necessitatibus <lb/>arduis et magnis
+                  nostri <orgName type="organization" ref="#ORG-CM">comunis</orgName> in partibus
+                  illis mutuaverint multam pecunie quantitatem <orgName type="office" ref="#ORG-RT"
+                     >recto<lb/>ribus</orgName> nostris, nomine nostri <orgName type="organization"
+                     ref="#ORG-CM">comunis</orgName> pro furniendo et solvendo ubi extiterat
+                  oportunum, quam pecuniam <lb/>non valentes rehabere aliquo modo, in totum nec in
+                  partem, fecerunt venditionem de ipsa pecu<lb/>nia vel denariis forte pro medietate
+                  vel minori quantitate aliquibus ementibus, quibus emptoribus <lb/>statim fuit
+                  solutum de bonis denariis integraliter pro tota quantitate dictorum denariorum seu
+                  pe<lb/>cunie nostro <orgName type="organization" ref="#ORG-CM">comuni</orgName>
+                  mutuate, quod fuit cum damno maximo nostri <orgName type="organization"
+                     ref="#ORG-CM">comunis</orgName>, quia dicti emptores nichil <lb/>de bursa sua
+                  solverunt, nec aliquid mutuaverunt <orgName type="organization" ref="#ORG-CM"
+                     >comuni</orgName>, et tamen lucrati fuerunt medietatem <lb/>propter quod solvi
+                  non potuit nec dari ubi magis necessarium erat dari et solvi, sicut erant soldati,
+                  <lb/>qui compleverant pagas suas per longum tempus, et alie res multum opportune
+                  cum maximo <lb/>periculo status nostri, capta fuit pars, quod committatur vobis
+                     <orgName type="office" ref="#ORG-SI">provisoribus et sindicis</orgName> quod
+                  quando <lb/>eritis in partibus Romanie, debeatis diligenter inquirere et examinare
+                  contra omnem personam, quam <lb/>senseritis talia mercata fecisse, per modum
+                  predictum. Et quos inveneritis emisse de talibus <lb/>denariis et pecunia ac
+                  lucratos fuisse ut supra dicitur, faciatis totum illud lucrum, quod ex inde
+                  <lb/>percepissent, restitui et poni in nostrum <orgName type="organization"
+                     ref="#ORG-CM">comune</orgName>. Verum, ut vos <orgName type="office"
+                     ref="#ORG-SI">provisores et sindici</orgName> sitis magis soliciti ad
+                  inquirendum <lb/>de predictis mercatis et lucris, habere debeatis, de toto eo quod
+                  inveneritis et poni feceritis in <orgName type="organization" ref="#ORG-CM"
+                     >comune</orgName>, soldos <num type="currency" value="2">duos</num>
+                  <lb/>pro libra. Et, si vobis <orgName type="office" ref="#ORG-SI">sindicis et
+                     provisoribus</orgName> constaverit aliquem <orgName type="office" ref="#ORG-RT"
+                     >rectorem</orgName> vel <orgName type="office" ref="#ORG-OF"
+                     >officialem</orgName> nostrum fuisse participem <lb/>talis emptionis vel lucri,
+                  procedere debeatis contra eum vel eos, sicut in parte de male administrantibus
+                  pecu<lb/>niam <orgName type="organization" ref="#ORG-CM">comunis</orgName>
+                  <app type="transposition">
+                     <lem wit="#WIT-ASVe">plenius continetur, vobis commissa in illa parte,
+                        videlicet que tetigisset illum <orgName type="office" ref="#ORG-RT"
+                           >rectorem</orgName> vel <orgName type="office" ref="#ORG-OF"
+                           >offi<lb/>cialem</orgName> de dicta emptione vel lucro solum</lem>
+                     <rdg wit="#WIT-Marc">vobis commissa plenius continetur, in illa videlicet
+                        parte, que tetigisset illum <orgName type="office" ref="#ORG-RT"
+                           >rectorem</orgName> vel <orgName type="office" ref="#ORG-OF"
+                           >officialem</orgName> de dicta emptione vel lucro solum</rdg>
+                  </app>. Et si de predictis vel aliquo predictorum fuerit accusator per <lb/>quem
+                  veritas habeatur, habere debeat soldos <num type="currency" value="2">duos</num>
+                  pro libra de parte tangente <orgName type="organization" ref="#ORG-CM"
+                     >comuni</orgName>, et teneatur de cre<lb/>dentia, quam partem, ut dictum est,
+                  superius debeatis inviolabiliter observare.</p>
+            </div>
+            <div type="chapter" n="18" xml:id="ASVe_ch18" corresp="#Marc_ch18">
+               <head>XVIII</head>
+               <p><lb/>Et non potestis refutare, sub pena ducatorum <num type="currency" value="100"
+                     >centum</num> auri pro quolibet. Et debeatis omnino recedere <lb/>cum illa
+                  galeota, quam mittimus <placeName ref="#PLA-CA">Caneam</placeName>. Et cum
+                  applicueritis <placeName ref="#PLA-MO">Mothonum</placeName>, vos <persName
+                     ref="#PER-GE">Johannes Aymo</persName> et <persName ref="#PER-LT">Lucas
+                     <lb/>Truno</persName>, qui vaditis <placeName ref="#PLA-NG"
+                     >Nigropontem</placeName>, ascendetis super galea <placeName ref="#PLA-NG"
+                     >Nigropontis</placeName> ventura <placeName ref="#PLA-MO">Mothonum</placeName>
+                  ad levandum no<lb/>bilem virum ser <persName ref="#PER-NV">Nicolaum
+                     Venerio</persName>, qui vadit <orgName type="office" ref="#ORG-BN">baiulus et
+                     capitaneus Nigropontis</orgName><note type="explanatory" resp="#EDI-DM">Son of
+                     Sergio Venier, <orgName type="office" ref="#ORG-BN">Bailo e Capitano di
+                        Negroponte</orgName> (1407–1409).</note>, vos vero <persName ref="#PER-AB"
+                     >Andreas <lb/>Barbaro</persName> et <persName ref="#PER-JM">Jaccopus
+                     Michael</persName> ire debeatis cum dicta galeota usque ad partes <placeName
+                     ref="#PLA-CR">Crete</placeName>.</p>
+            </div>
+            <div type="chapter" n="19" xml:id="ASVe_ch19" corresp="#Marc_ch19">
+               <head>XVIIII</head>
+               <p><lb/>Insuper, licet per suprascripta capitula sit vobis data libertas inquirendi
+                  contra omnes generaliter, qui essent vel fuissent <lb/>in partibus et locis
+                  supranotatis ab annis <num type="time" value="10">decem</num> citra, tamen vos
+                  avisamus, quod sicut captum est in nostris <lb/><orgName type="organization"
+                     ref="#ORG-CR">consiliis rogatorum</orgName> et <orgName type="organization"
+                     ref="#ORG-ZO">addicionis</orgName> non potestis vos impedire de illis
+                  processibus, qui iam forent abinati et intro<lb/>missi per <orgName type="office"
+                     ref="#ORG-AC">advocatores nostri comunis</orgName>, qui <orgName type="office"
+                     ref="#ORG-AC">advocatores</orgName> tenentur dictos tales processus intromissos
+                  dare vobis <lb/>in scriptis, ut sciatis, quid debeatis observare.</p>
+            </div>
+            <div type="chapter" n="20" xml:id="ASVe_ch20" corresp="#Marc_ch20">
+               <head>XX</head>
+               <p><lb/>Item tenemini et debetis pro possendo melius habere informationem et
+                  veritatem rerum, que non forent bene <lb/>facte per <orgName type="office"
+                     ref="#ORG-RT">rectores</orgName> et <orgName type="office" ref="#ORG-OF"
+                     >officiales</orgName> nostros dictarum partium, convocare et interrogare
+                  separatim de nostris fidelibus dictorum <lb/>locorum usque ad numerum <num
+                     type="count" value="12">XII</num> ad minus pro quolibet locorum, tam grecis
+                  quam latinis et plures si vobis vide<lb/>buntur et illas personas que vobis
+                  videbuntur, et dare eis et cuilibet ipsorum sacramentum, quod dicant <lb/>et
+                  propalent omnia, que sciverint vel audiverint esse acta per aliquem <orgName
+                     type="office" ref="#ORG-RT">rectorem</orgName> vel <orgName type="office"
+                     ref="#ORG-OF">officialem</orgName> loci <lb/>unde erunt contra honorem nostrum
+                  et contra jus et justiciam, vel in damnum nostri <orgName type="organization"
+                     ref="#ORG-CM">comunis</orgName> vel alicuius persone indebite <lb/>et iniuste,
+                  ut vos clarius possitis procedere et facere officium vestrum secundum formam
+                  vestre <lb/>commissionis.</p>
+            </div>
+            <pb n="6" facs="#ASVe_c.4r"/>
+            <div type="chapter" n="21" xml:id="ASVe_ch21" corresp="#Marc_ch21">
+               <head>XXI</head>
+               <p><lb/>Item sciatis, quod de aliqua condemnatione vel sententia, que fiet per
+                  placitare vestrum vel alicuius vestrum, <lb/>non potest fieri aliqua gratia,
+                  donum, remissio, recompensatio, termini elongatio vel aliqua declaratio, <lb/>nisi
+                  per <num type="count" value="6">sex</num>
+                  <orgName type="office" ref="#ORG-CD">consiliarios</orgName>, <num type="count"
+                     value="3">tria</num> capita de <orgName type="organization" ref="#ORG-CQ"
+                     >XL</orgName>, <num type="count" value="35">XXXV</num> de <orgName
+                     type="organization" ref="#ORG-CQ">XL</orgName>, et <num type="count" value="3"
+                     >tres</num> partes <app type="transposition">
+                     <lem wit="#WIT-ASVe"><orgName type="organization" ref="#ORG-MC">maioris
+                           consilii</orgName></lem>
+                     <rdg wit="#WIT-Marc"><orgName type="organization" ref="#ORG-MC">consilii
+                           maioris</orgName></rdg>
+                  </app>.</p>
+            </div>
+            <div type="chapter" n="22" xml:id="ASVe_ch22" corresp="#Marc_ch22">
+               <head>XXII</head>
+               <p><lb/>Insuper pro transitu vestrum de uno loco ad alium, scribimus per nostras
+                  litteras <orgName type="office" ref="#ORG-BN">baiulo et capitaneo
+                     Nigropontis</orgName>
+                  <lb/>et <orgName type="office" ref="#ORG-CN">consiliariis</orgName>
+                  <note type="explanatory" resp="#EDI-DM">Identified as <persName ref="#PER-FL"
+                        >Francesco Leono</persName> and <persName ref="#PER-PG">Pietro
+                        Gradenigo</persName>, <orgName type="office" ref="#ORG-CN">Consiglieri di
+                        Negroponte</orgName>.</note> suis, quod ad omnem requisitionem <app
+                     type="omission">
+                     <lem wit="#WIT-ASVe">vestram</lem>
+                     <rdg wit="#WIT-Marc">om.</rdg>
+                  </app> mittere debeant galeam <placeName ref="#PLA-NG">Nigropontis</placeName> vel
+                  aliud sufficiens <lb/>et tutum navigium in omnem partem, ubi fueritis, ad levandum
+                  et conducendum vos <placeName ref="#PLA-NG">Nigropontem</placeName>. Et similiter,
+                  <lb/>existentibus vobis in <placeName ref="#PLA-NG">Nigroponte</placeName>, dictam
+                  galeam existentem armatam vel aliud sufficiens et securum navigium <lb/>vobis
+                  consignari faciat dictum regimen, pro passagio vestro, intelligendo quod dicta
+                  galea <placeName ref="#PLA-NG">Nigropontis</placeName> sit <lb/>solum pro <orgName
+                     type="office" ref="#ORG-SI">sindicis</orgName>
+                  <placeName ref="#PLA-NG">Nigropontis</placeName> et aliorum locorum Romanie, et
+                  non pro <orgName type="office" ref="#ORG-SI">sindicis</orgName>
+                  <placeName ref="#PLA-CR">Crete</placeName>. Et insuper <lb/>scribimus dicto
+                  regimini <placeName ref="#PLA-NG">Nigropontis</placeName> ac aliis <orgName
+                     type="office" ref="#ORG-RT">rectoribus</orgName> partium Romanie quod debeant
+                  vobis <lb/>de pecuniis neccessariis pro expensis vestris et familie vestre vobis
+                  subvenire, sicut ab eis duxe<lb/>ritis requirendum.</p>
+            </div>
+            <div type="chapter" n="23" xml:id="ASVe_ch23" corresp="#Marc_ch23">
+               <head>XXIII</head>
+               <p><lb/>Et similiter scribimus <orgName type="office" ref="#ORG-CG"
+                     >capitaneo</orgName> et <orgName type="office" ref="#ORG-SO">supracomitis
+                     nostris Culphy</orgName> et aliis <orgName type="office" ref="#ORG-CP"
+                     >capitaneis</orgName> nostrorum <lb/>navigiorum armatorum, quod in casu quo se
+                  reperirent in illis partibus insule <placeName ref="#PLA-CR">Crete</placeName> vel
+                  Romanie vel aliis <lb/>ibi prope et fuerint requisiti tam a vobis <orgName
+                     type="office" ref="#ORG-SI">sindicis</orgName>
+                  <placeName ref="#PLA-CR">Crete</placeName> quam a vobis <orgName type="office"
+                     ref="#ORG-SI">sindicis</orgName>
+                  <app type="transposition">
+                     <lem wit="#WIT-ASVe"><placeName ref="#PLA-NG">Nigropontis et
+                           Romanie</placeName></lem>
+                     <rdg wit="#WIT-Marc"><placeName ref="#PLA-NG">Romanie et
+                           Nigropontis</placeName></rdg>
+                  </app>
+                  <lb/>tam oretenus quam per literas, quod cum una ex dictis galeis vel navigiis vos
+                  levare et conducere debeant <lb/>ad aliquas partes, ipsi debeant vos levare et
+                  conducere prout duxeritis ordinandum, pro celleri expeditione <lb/>agendorum vobis
+                  commissorum, dummodo non essent aliis dummodo non essent aliis <app
+                     type="omission">
+                     <lem wit="#WIT-ASVe">om.</lem>
+                     <rdg wit="#WIT-Marc">rebus</rdg>
+                  </app> maioribus agendis occupati nostris maioribus agendis occupati. Et tunc
+                  quando <lb/>non possitis per dictum modum habere passagium, vos providere debeatis
+                  de transitu vestro, prout vobis <lb/>melius videbitur, et cum quam minori expensa
+                  poteritis nostri <orgName type="organization" ref="#ORG-CM">comunis</orgName>.</p>
+            </div>
+            <div type="chapter" n="24" xml:id="ASVe_ch24" corresp="#Marc_ch24">
+               <head>XXIIII</head>
+               <p><lb/>Insuper capta fuit in <orgName type="organization" ref="#ORG-CR">consilio
+                     rogatorum</orgName> et <orgName type="organization" ref="#ORG-ZO"
+                     >addicione</orgName> pars infrascripti tenoris, <app type="omission">
+                     <lem wit="#WIT-ASVe">videlicet</lem>
+                     <rdg wit="#WIT-Marc">om.</rdg>
+                  </app> cum sint multa loca, <lb/>territoria et possessiones nostri <orgName
+                     type="organization" ref="#ORG-CM">comunis</orgName>, que debent incantari et
+                  deliverari in insula <placeName ref="#PLA-CR">Crete</placeName>, de quibus est
+                  utile <lb/>providere, ita quod non decipiatur <orgName type="organization"
+                     ref="#ORG-CM">comune</orgName> nostrum, vadit pars, quod stringatur et
+                  prohibeatur, quod cancelarii, scribe <lb/>vel notarii <orgName type="office"
+                     ref="#ORG-CC">camerariorum Crete</orgName> vel alii pro eis vel eorum nomine
+                  non possint de cetero accipere ad incantum, <lb/>ullo modo, de illis territoriis
+                  et locis vel possessionibus nostri <orgName type="organization" ref="#ORG-CM"
+                     >comunis</orgName>, sub pena perdendi totum quod acciperent, <lb/>quod sit
+                  nostri <orgName type="organization" ref="#ORG-CM">comunis</orgName>. Et scribatur
+                     <orgName type="office" ref="#ORG-DC">duche</orgName> et <orgName type="office"
+                     ref="#ORG-CO">consiliariis</orgName>
+                  <placeName ref="#PLA-CR">Crete</placeName> et addatur in suis commissionibus, quod
+                  <lb/>sic teneatur et debeant observare et facere observari.</p>
+            </div>
+            <div type="chapter" n="25" xml:id="ASVe_ch25" corresp="#Marc_ch25">
+               <head>XXV</head>
+               <p><lb/>Item commissum est dictis <orgName type="office" ref="#ORG-DC"
+                     >duche</orgName> et <orgName type="office" ref="#ORG-CO">consiliariis</orgName>
+                  <placeName ref="#PLA-CR">Crete</placeName> quod debeant facere solvi de presenti
+                  totum et <lb/>quicquid predicti cancellarii, notarii aut scribe tenentur solvere
+                  nostro <orgName type="organization" ref="#ORG-CM">comuni</orgName>, occaxione
+                  ter<lb/>renorum, locorum et possessionum, quas habuissent a nostro <orgName
+                     type="organization" ref="#ORG-CM">comuni</orgName>, intromittendo et vendendo
+                  de bonis illorum si non <lb/>solvent ut dictum est, quam partem vos <orgName
+                     type="office" ref="#ORG-SI">sindici</orgName> et provisores similiter observari
+                  facere debeatis.</p>
+            </div>
+            <div type="part" n="2" xml:id="ASVe_appendix" corresp="#Marc_appendix">
+               <head>
+                  <app type="paratext">
+                     <lem wit="#WIT-ASVe">ΙΙ. Pars furantium de havere comunis</lem>
+                     <rdg wit="#WIT-Marc">Pars furantium</rdg>
+                  </app>
+               </head>
+            </div>
+            <div type="chapter" n="26" xml:id="ASVe_ch26" corresp="#Marc_ch28">
+               <head>XXVI</head>
+               <p><lb/>Si convictus fueris per <orgName type="office" ref="#ORG-AC">advocatores
+                     comunis</orgName> quod furatus fueris de bonis et havere <orgName
+                     type="organization" ref="#ORG-CM">comunis</orgName> libras <num type="currency"
+                     value="50">L</num> ad grossos <lb/>vel inde supra, aut acceperis ab aliis
+                  contra commissionem tuam libras <num type="currency" value="100">C</num> ad
+                  grossos vel inde supra, modo aliquo <lb/>vel ingenio, intelligaris ex nunc
+                  cecidisse ad solvendum capitale et tantumdem, pro pena, usque ad <num type="time"
+                     value="3">tres</num>
+                  <lb/>dies postquam fueris convictus, sub pena soldorum <num type="currency"
+                     value="5">quinque</num> pro libra tam capitalis quam pene. Que pena
+                  <lb/>dividatur per medium, videlicet medietas sit <orgName type="office"
+                     ref="#ORG-AC">advocatorum</orgName> et alia medietas sit <orgName
+                     type="organization" ref="#ORG-CM">comunis</orgName>. Et si fuerit accusator,
+                  <lb/>pena dividatur per tertium et sit de credentia, et ultra hoc sis perpetuo
+                  privatus omnibus officiis, <pb n="7" facs="#ASVe_c.5v"/>
+                  <lb/>regiminibus, consiliis et beneficiis <orgName type="organization"
+                     ref="#ORG-CM">comunis venetiarum</orgName>, tam intus quam extra, et crideris
+                  in primo maiori consilio <lb/>de festo solenni cridato vel in quo fiant de <app
+                     type="numerical">
+                     <lem wit="#WIT-ASVe"><num type="count" value="12">XII</num></lem>
+                     <rdg wit="#WIT-Marc"><num type="count" value="12">duodecim</num></rdg>
+                  </app> regiminibus per unum ex <orgName type="office" ref="#ORG-AC">advocatoribus
+                     comunis</orgName>. Verum, si vo<lb/>les restituere et restitues usque ad tres
+                  dies postquam fueris requisitus ab <orgName type="office" ref="#ORG-AC"
+                     >advocatoribus</orgName>, non permittendo <lb/>te convinci sed confitendo te
+                  furatum fuisse de bonis <orgName type="organization" ref="#ORG-CM"
+                     >comunis</orgName> vel accepisse ab aliis contra commissionem tuam, <lb/>tunc
+                  tenearis solvere capitale et medietatem plus pro pena, que dividatur ut supra. Et
+                  ultra <lb/>hoc sis perpetuo privatus hoc presenti regimine, et crideris in
+                     <orgName type="organization" ref="#ORG-MC">maioris consilio</orgName> ut est
+                  dictum. Si vero <lb/>convictus fueris <app type="grammatical">
+                     <lem wit="#WIT-ASVe">furtum</lem>
+                     <rdg wit="#WIT-Marc">furatum</rdg>
+                  </app> fuisse a libris <num type="currency" value="50">L</num> infra de bonis
+                     <orgName type="organization" ref="#ORG-CM">comunis</orgName> vel accepisse ab
+                  aliis aliter accepisse ab aliis contra commis<lb/>sionem tuam a libris <num
+                     type="currency" value="100">C</num> ad grossos infra, tunc incurras ad
+                  solvendum capitale et medietatem plus <lb/>pro pena ad dictum terminum et sub
+                  dicta pena, que dividatur ut supra. Et ultra hoc sis perpetuo <lb/>privatus hoc
+                  regimine et publiceris in <orgName type="organization" ref="#ORG-MC">maiori
+                     consilio</orgName> per <orgName type="office" ref="#ORG-AC">advocatores
+                     comunis</orgName>, ut est dictum. Et <lb/>si voles restituere et restitues
+                  usque ad tres dies postquam fueris requisitus ab <orgName type="office"
+                     ref="#ORG-AC">advocatoribus comunis</orgName>, non <lb/>permittendo te convinci
+                  sed confitendo te <app type="orthographic">
+                     <lem wit="#WIT-ASVe">furantum</lem>
+                     <rdg wit="#WIT-Marc">furatum</rdg>
+                  </app> fuisse de bonis <orgName type="organization" ref="#ORG-CM"
+                     >comunis</orgName> a libris <num type="currency" value="50">L</num> infra ad
+                  grossos, tunc ad <lb/>dictum terminum et sub dicta pena teneris solvere capitale
+                  et tertium plus pro pena, que dividatur <lb/>ut supra; et ultra hoc priveris hoc
+                  presenti regimine. Verum si scriberes in tuis rationibus <lb/>vel quaternis
+                  aliquas expensas vel alias res, quas <orgName type="office" ref="#ORG-UR"
+                     >officiales rationum</orgName> dicerent non potuisse poni, <lb/>tunc hoc non
+                  habeatur pro furto sed veniatur ad collegium nostri <orgName type="office"
+                     ref="#ORG-CD">consiliariorum</orgName>, capitum, <orgName type="office"
+                     ref="#ORG-AC">advocatorum</orgName>
+                  <lb/>et <orgName type="office" ref="#ORG-UR">officialium rationum</orgName>, ubi
+                  terminetur si dicte expense erunt bene posite vel non, sicut modo servatur <lb/>et
+                  sicut continetur in capitulari <orgName type="office" ref="#ORG-CD"
+                     >consilariorum</orgName> in hac parte. Sed si vigore alicuius sententie,
+                  determinatio<lb/>nis vel alterius actus iudiciarii aut vigore alicuius publice
+                  consuetudinis aliquid acciperes <lb/>vel dares contra id quod deberes, quod forte
+                  crederes posse licite accipere vel dare, in his casibus <lb/>non cadas ad dictas
+                  penas, sed servetur illud quod servatur hodie, videlicet quod si volueris
+                  restituere <lb/>et restitues quod indebite acceperis infra tres dies, ipsum
+                  restituas sine aliqua pena. Si autem <lb/>permiseris te duci et convinci ad
+                  consilia, cadas ad dictam penam dupli, que dividatur sicut <lb/>dividitur hodie.
+                  Et de omnibus dictis penis vel capitalibus non potest tibi fieri gratia, donum,
+                  <lb/>remissio, revocatio vel termini <app type="lexical">
+                     <lem wit="#WIT-ASVe">delongatio</lem>
+                     <rdg wit="#WIT-Marc">elongatio</rdg>
+                  </app>, sub pena ducatorum <num type="currency" value="500">V<hi rend="sup"
+                     >C</hi></num><lb/>partem in contrarium.</p>
+            </div>
+            <div type="chapter" n="27" xml:id="ASVe_ch27" corresp="#Marc_ch27">
+               <head>XXVII</head>
+               <p><lb/>In redditu vestro, postquam applicueritis <placeName ref="#PLA-VE"
+                     >Venetias</placeName>, tenemini infra unum mensem ire vel mittere <lb/>ad
+                     <orgName type="office" ref="#ORG-UR">officiales rationum</orgName> ad faciendum
+                  rationem cum eis et ad solvendum illud quod debebitis dare et refundere
+                  <lb/>nostro <orgName type="organization" ref="#ORG-CM">comuni</orgName>, pro
+                  familia et equis qui vobis <app type="grammatical">
+                     <lem wit="#WIT-ASVe">defecerint</lem>
+                     <rdg wit="#WIT-Marc">deffecissent</rdg>
+                  </app>, tempore vestri regiminis, in ratione grossorum <num type="currency"
+                     value="3">trium</num> in <lb/>die pro quolibet ente de vestra familia et pro
+                  quolibet equo qui vobis defecissent, pro tanto tempore quanto <lb/>vobis
+                  defecerint. Verum, si deficiet vobis aliquis de vestra familia, <app
+                     type="grammatical">
+                     <lem wit="#WIT-ASVe">habeatis terminum ad remittendum alium</lem>
+                     <rdg wit="#WIT-Marc">datum terminum ad remittendum alium</rdg>
+                  </app>
+                  <lb/><num type="time" value="8">octo</num> dierum. Et si aliquis equus vobis
+                  defecerit, habeatis terminum ad remittendum alium <num type="time" value="12"
+                     >duodecim</num>
+                  <lb/>dierum. Et si remiseritis ad dictos terminos, nichil teneamini refundere
+                     <orgName type="organization" ref="#ORG-CM">comuni</orgName> pro eis; si autem
+                  non <lb/>remiseritis ad terminos antedictos, tunc debeatis refundere comuni a die,
+                  qua vobis defecerint, usque <lb/>ad diem quo remiseritis in ratione predicta. Hoc
+                  autem servabitis sub pena librarum <num type="currency" value="500"
+                     >quingentarum</num>, <lb/>et tamen tenemini ad solvendum omne id quod debebitis
+                  pro dictis deffectibus, in ratione predicta. <lb/>Cuius pene librarum <num
+                     type="currency" value="500">V<hi rend="sup">C</hi></num> medietas sit
+                  accusatoris si fuerit per quem sciatur veritas, et alia medietas <lb/>dividatur
+                  inter <orgName type="organization" ref="#ORG-CM">comune</orgName> nostrum et
+                     <orgName type="office" ref="#ORG-UR">officiales rationum</orgName> predictos.
+                  Et si condemnabimini per <lb/><orgName type="office" ref="#ORG-UR">officiales
+                     rationum</orgName> ad aliquid dandum vel refundendum, tunc subiaceatis parti
+                  capte in <orgName type="organization" ref="#ORG-MC">maiori <lb/>consilio</orgName>
+                  contra illos qui non solvunt, postquam eis preceptum fuerit per <orgName
+                     type="office" ref="#ORG-UR">officiales rationum</orgName> predictos.</p>
+            </div>
+            <pb n="8" facs="#ASVe_c.5r"/>
+            <div type="chapter" n="28" xml:id="ASVe_ch28" corresp="#Marc_ch26">
+               <head>XXVIII</head>
+               <p><lb/>Insuper, observare debeatis infrascriptam partem captam in nostris <orgName
+                     type="organization" ref="#ORG-CR">consiliis rogatorum</orgName> et <orgName
+                     type="organization" ref="#ORG-ZO">additionis</orgName>, videlicet, <lb/>quia
+                  bonum est declarare libertatem, quam <orgName type="office" ref="#ORG-SI">sindici
+                     et provisores</orgName> nostri ituri in <placeName ref="#PLA-CR"
+                     >Cretam</placeName> et alia loca <lb/>Romanie habere debent prout soliti sunt
+                  habere, super factis pro quibus facti sunt <orgName type="office" ref="#ORG-SI"
+                     >provisores</orgName>, ordi<lb/>netur quod et quando dicti <orgName
+                     type="office" ref="#ORG-SI">sindici et provisores</orgName> erunt in locis
+                  nostris insule <placeName ref="#PLA-CR">Crete</placeName>, <placeName
+                     ref="#PLA-CO">Coroni</placeName> et <placeName ref="#PLA-MO"
+                     >Mothoni</placeName>, <lb/><placeName ref="#PLA-CF">Corphoy</placeName>,
+                     <placeName ref="#PLA-NP">Neapolis Romanie</placeName> et <placeName
+                     ref="#PLA-NG">Nigropontis</placeName> debeant esse et conferre cum <orgName
+                     type="office" ref="#ORG-RT">rectoribus</orgName> ipsorum <lb/>locorum, et secum
+                  inquirere et diligenter examinare de omnibus que sibi videbuntur esse utilia ac
+                  ne<lb/>cessaria pro bono commodo ac conservatione ipsorum locorum. Et facta
+                  diligenti examinatione, debeant <lb/>requirere ipsos <orgName type="office"
+                     ref="#ORG-RT">rectores</orgName> quod poni faciant suas opiniones et consilium
+                  in scriptis, quas suis literis <lb/>inclusas debeant <placeName ref="#PLA-VE"
+                     >Venetias</placeName> apportare et nobis presentare. Verum sit licitum dictis
+                     <orgName type="office" ref="#ORG-SI">sindicis</orgName> et <lb/>cuilibet eorum
+                  venire postea ad <orgName type="organization" ref="#ORG-CR">consilium
+                     rogatorum</orgName> et <orgName type="organization" ref="#ORG-ZO"
+                     >additionis</orgName> infra <num type="time" value="2">duos</num> menses, post
+                  adventum <lb/>suum <placeName ref="#PLA-VE">Venetias</placeName>, et consulere et
+                  ponere partem super omnibus, que videbuntur eis vel alicui eorum <lb/>comoda et
+                  neccessaria pro bono, conservatione et utilitate locorum predictorum. Et <app
+                     type="numerical">
+                     <lem wit="#WIT-ASVe">si erit de <orgName type="organization" ref="#ORG-CR"
+                           >consilio</orgName> possit ponere balotam</lem>
+                     <rdg wit="#WIT-Marc">sicut de <orgName type="organization" ref="#ORG-CR"
+                           >conselio</orgName> possit ponere ballotam</rdg>
+                  </app>. Et ultra predicam generalem libertatem, si placebit dominio aliquid
+                  specifi<lb/>care dictis <orgName type="office" ref="#ORG-SI">sindicis</orgName>
+                  super quo dicti <orgName type="office" ref="#ORG-SI">sindici et
+                     provisores</orgName> habere debeant advertentiam et examinationem, <lb/>ponatur
+                  specialiter in commissione dictorum <orgName type="office" ref="#ORG-SI"
+                     >sindicorum</orgName>, non derogando propterea quod ultra que spetialiter
+                  <lb/>commissa eis fuerint examinanda, possint generaliter examinare et providere
+                  ut superius dictum est.</p>
+               <div type="closure" n="29" xml:id="ASVe_closure" corresp="#Marc_closure">
+                  <p><lb/>Iurastis proficuum et honorem <orgName type="organization" ref="#ORG-CM"
+                        >comunis venetiarum</orgName>, eundo stando et redeundo <app type="omission">
+                        <lem wit="#WIT-ASVe">om.</lem>
+                        <rdg wit="#WIT-Marc">et cetera</rdg>
+                     </app>. <lb/>Omnia que <app type="grammatical">
+                        <lem wit="#WIT-ASVe">vobis</lem>
+                        <rdg wit="#WIT-Marc">tibi</rdg>
+                     </app> dicendo mandabimus, attendes et observabis bona fide sine fraude.
+                     <lb/>Datum in nostro <placeName ref="#PLA-PD">ducali palatio</placeName>, <date
+                        when="1408-04-19"> die <app type="numerical">
+                           <lem wit="#WIT-ASVe">
+                              <num type="time" value="19">decimonono</num>
+                           </lem>
+                           <rdg wit="#WIT-Marc">
+                              <num type="time" value="19">XVIIII</num>
+                           </rdg>
+                        </app> mensis aprilis, indictione <num type="date" value="1">prima</num>,
+                           <num type="date" value="1408">MCCCCVIII</num></date>.</p>
+               </div>
+            </div>
+         </div>
+         <div type="witness" xml:id="wit-Marc" n="Marc" xml:lang="la">
+            <head type="presentation" xml:lang="en" rend="bold italic">TEI-XML encoding of the ducal
+               commission issued in 1408 in the name of Doge Michele Steno, based on the manuscript
+               preserved in the Biblioteca Nazionale Marciana.</head>
+            <pb n="1" facs="#Marc_c.58r"/>
+            <div type="title" n="Marciana Witness" xml:id="Marc_title" corresp="#ASVe_title">
+               <p>Commissio egregiorum et nobilium virorum dominorum Johannis <lb/>Aymo et Luce
+                  Truno, honorabilium sindicorum ad partes <lb/>Romanie.</p>
+            </div>
+            <pb n="2" facs="#Marc_c.59ar"/>
+            <div type="chapter" n="1" xml:id="Marc_ch1" corresp="#ASVe_ch1">
+               <head>I</head>
+               <p><lb/>Nos Michael Steno, dei gratia dux veneciarum et cetera, committimus vobis
+                  nobilibus viris <lb/>Andree Barbaro et Jacobo Michael et Johanni Aymo et Luce
+                  Truno, civibus et fidelibus <lb/>nostris quod pro bono ortamine, salute et
+                  conservatione locorum nostrorum Corphoy, Mothoni, Co<lb/>roni, insule Crete,
+                  Neapolis Romanie et Nigropontis, et ut subditi et fideles nostri <lb/>illarum
+                  partium sentiant et videant dulcedinem et benignitatem nostram, et ad ipsorum
+                  statum <lb/>pacificum et tranquillum nos plurimum vigilare in nolendo aut
+                  permittendo quod aliquis <lb/>subditus noster oblique vel indirecte tractetur et
+                  contra debitum rationis de nostro <lb/>mandato, vos Andreas Barbaro et Jacobus
+                  Michael ire debeatis in nostros sollemnes pro<lb/>visores et sindicos ad partes
+                  antedictas eundo, solummodo per totam insulam Crete et <lb/>conferendo cum ducha,
+                  consiliariis et capitaneo nostris Crete et aliis nostris rectoribus dicte
+                  <lb/>insule, cum quibus, habita collatione insimul quando vobis utile apparebit,
+                  fatiatis <lb/>publice proclamari quod omnes volentes conqueri et gravare se de
+                  extorsionibus aliquibus <lb/>gravaminibus et violentiis vel aliis insolenciis seu
+                  malis, que quomodolibet re<lb/>cepissent a rectoribus vel officialibus nostris,
+                  qui in partibus illis extitissent a X annis <lb/>citra, debeant comparere coram
+                  vobis ad deponendum querelas suas ordinate et ad <lb/>dandum et producendum
+                  testificationes, probationes et oppositiones suas, assignando eis <lb/>illum
+                  terminum vel illos terminos super hoc quos videbitis competentes, verum tamen
+                  relinquimus <lb/>in libertate vestra incipiendum illa terra, loco sive castro
+                  prout vobis melius et utilius <lb/>apparebit.</p>
+            </div>
+            <div type="chapter" n="2" xml:id="Marc_ch2" corresp="#ASVe_ch2">
+               <head>II</head>
+               <p><lb/>Vos autem Johannes Aymo et Lucas Truno ire debeatis in nostros sollemnes
+                  provisores <lb/>et sindicos ad dictas partes eundo solummodo ad partes Corphoy,
+                  Mothoni, Coroni, Neapolis <lb/>Romanie et Nigropontis, incipiendo in illo loco qui
+                  vobis magis comodus et utilis apparebit, <lb/>in quibus et quolibet eorum
+                  audiatis, observetis et faciatis in omnibus et per omnia, ut de insula <lb/>Crete
+                  superius dictum est, et commissum aliis sociis vestris.</p>
+            </div>
+            <div type="chapter" n="3" xml:id="Marc_ch3" corresp="#ASVe_ch3">
+               <head>III</head>
+               <p><lb/>Verum si vos ituri in Cretam eritis expediti de factis vobis commissis, et in
+                  reditu vestro <lb/>reperietis vos in partibus Coroni et Mothoni, vel in aliis
+                  partibus, in quibus alii sotii vestri <lb/>non sindicassent, possitis etiam et
+                  debeatis pro celeri expeditione inquirere et examinare <lb/>et sindicare, ut
+                  potestis de aliis vobis commissis. Et si vos omnes quatuor eritis simul,
+                  <lb/>debeatis facere et exercere insimul offitium vestrum.</p>
+            </div>
+            <div type="chapter" n="4" xml:id="Marc_ch4" corresp="#ASVe_ch4">
+               <head>IIII</head>
+               <p><lb/>Omnes querelas autem cuiuscunque conditionis existant, testificationes et
+                  probationes per <lb/>modum predictum, quas conquerentes ipsi volent producere,
+                  fatiatis ordinate poni in scriptis, <lb/>observando modum in inquisitionibus et
+                  querelis, quem faciunt et observant nostri advocatores <lb/>comunis in Venetiis,
+                  non impediendo seu intromittendo vos de regiminibus presentibus, sed de
+                  regiminibus <lb/>preteritis inquiratis diligenter et bene secundum formam huius
+                  vestre commissionis. Et omnia <lb/>que examinaveritis et feceritis tenemini
+                  ordinate in reditu vestro portare Venetias, et cum <lb/>applicueritis Venetias
+                  omnino infra unum annum expedivisse, placitasse in nostris consiliis ordinatis <pb
+                     n="3" facs="#Marc_c.59bv"/>
+                  <lb/>sicut fatiunt et facere possunt advocatores comunis, omnia intromissa per
+                  vos, salvis de illis nostris <lb/>rectoribus et officialibus, qui se reperirent in
+                  regiminibus vel officiis, in quibus essent. Et ut <lb/>dicti tales non possint se
+                  excusare, tenemini dictis rectoribus et offitialibus vestris literis
+                  signi<lb/>ficare et committere, quod debeant completo termino vel officio suo
+                  directe venire vel mittere Ve<lb/>necias suum procuratorem legitimum ad
+                  defendendum iura sua, alioquin procederetis, eorum absentia <lb/>in aliquo non
+                  obstante, habendo medietatem condenationum que fient. Et si qua restarent ad
+                  ex<lb/>pediendum post complementum dictorum terminorum, et teneamini et debeatis
+                  omnes scripturas et omnes <lb/>alios actus et processus acceptos et formatos per
+                  vos videlicet quaslibet per se presentare et dare nostris <lb/>advocatoribus
+                  comunis, ut loco vestro facere possint offitium predictum. Et dicti advocatores
+                  comunis <lb/>teneantur omnino ipsas omnes sibi presentatas videlicet a die
+                  presentationis usque sex menses expedivisse <lb/>pro posse suo secundum eorum
+                  bonam conscientiam et sub debito sacramenti.</p>
+            </div>
+            <div type="chapter" n="5" xml:id="Marc_ch5" corresp="#ASVe_ch5">
+               <head>V</head>
+               <p><lb/>Insuper tenemini, cum applicueritis Venetias, infra unum mensem legisse et
+                  dedisse in scriptis omnes <lb/>scripturas, actus et processus acceptos et formatos
+                  per vos, salvis nominibus accusatorum, <lb/>nostro ducali dominio, ut semper sit
+                  informatum de eo quod ducetis et de eo quod restabit ad du<lb/>cendum. Et hoc sub
+                  pena librarum C pro quolibet vestrum in vestris perperis bonis, et simili<lb/>ter
+                  teneamini, postquam redieritis Venecias infra terminum trium mensium, dedisse in
+                  scriptis illos quos <lb/>intromisseritis, eorum capitula et alias scripturas
+                  solitas dari, et hoc sub pena librarum C cuilibet <lb/>vestrum pro quolibet
+                  intromisso, cui non daretis dicta capitula et alias scripturas.</p>
+            </div>
+            <div type="chapter" n="6" xml:id="Marc_ch6" corresp="#ASVe_ch6">
+               <head>VI</head>
+               <p><lb/>Insuper non potestis, postquam redieritis a dicto sindacatu, eligi ad aliquam
+                  aliam rem extra civitatem <lb/>et corpus venetiarum usque ad unum annum, sed ad
+                  offitia et regimina de intus corpus venetiarum sic. Et nichi<lb/>lominus remanere
+                  debeatis in dicto sindacatu, non obstante quod sitis offitiales. Et non potestis
+                  <lb/>etiam postquam redieritis a dicto sindacatu ipsum sindacatum refutare modo
+                  aliquo a die applicationis <lb/>usque unum annum, sub pena ducatorum centum auri
+                  pro quolibet.</p>
+            </div>
+            <div type="chapter" n="7" xml:id="Marc_ch7" corresp="#ASVe_ch7">
+               <head>VII</head>
+               <p><lb/>Insuper, quia per ultimos sindicos et provisores nostros destinatos ad dictas
+                  partes Levantis <lb/>formati fuerunt aliqui processus, et accepte nonnulle
+                  testificationes, quas omnes assignarunt <lb/>nostris advocatoribus comunis et sic
+                  remanent suspense, et utile sit quod omnes tractentur equaliter, <lb/>committimus
+                  vobis quod accipere debeatis a dictis advocatoribus comunis, omnes scripturas eis
+                  <lb/>presentatas per ipsos sindicos, et ipsas vobiscum portare, ut si vobis
+                  videbitur super ipsis de <lb/>novo accipere alias testificationes et formare alios
+                  actus, possitis facere, ut potestis de <lb/>aliis vobis commissis. Et sic
+                  teneantur dicti advocatores eas vobis dare et assignare.</p>
+            </div>
+            <div type="chapter" n="8" xml:id="Marc_ch8" corresp="#ASVe_ch8">
+               <head>VIII</head>
+               <p>Et ducale dominium teneatur, pro expeditione predictorum, tam vobis provisoribus
+                  quam advocatoribus <lb/>comunis dare consilium et consilia que volueritis et
+                  volent, sub pena librarum X pro quolibet <lb/>consiliario qui denegaret et
+                  qualibet vice.</p>
+            </div>
+            <pb n="4" facs="#Marc_c.59br"/>
+            <div type="chapter" n="9" xml:id="Marc_ch9" corresp="#ASVe_ch9">
+               <head>VIIII</head>
+               <p><lb/>De quibus omnibus suprascriptis penis vel aliqua earum non possit modo aliquo
+                  fieri alicui contrafacienti <lb/>gratia, donum, remissio, recompensatio, termini
+                  elongatio, vel aliqua declaratio, sub pena librarum VC pro <lb/>quolibet
+                  consiliario, capite, sapiente, vel alio ponente vel consentiente partem in
+                  contrarium. Et predicta com<lb/>missa sint nostris officialibus de catavere, qui
+                  inquirere et exigere debeant dictas penas, habendo <lb/>partem ut de aliis sui
+                  officii. Et si consilium est contra et cetera.</p>
+            </div>
+            <div type="chapter" n="10" xml:id="Marc_ch10" corresp="#ASVe_ch10">
+               <head>X</head>
+               <p><lb/>Insuper, quia in locis nostris Crete, Coroni et Mothoni ac aliorum locorum
+                  nostrorum predictorum a bono tempore <lb/>citra alique rationes frumenti et
+                  aliorum bladorum ac quamplurium aliarum rerum et diversarum <lb/>nostri comunis,
+                  non fuerunt vise et examinate, et sit utile pro bono et utilitate nostri comunis,
+                  quod generaliter <lb/>omnes rationes nostri comunis, non specificando aliquod
+                  tempus, per vos videantur et examinentur, <lb/>committimus vobis quod debeatis
+                  generaliter videre et diligenter examinare omnes rationes frumenti <lb/>et aliorum
+                  bladorum ac omnium aliarum rerum spectantium nostro comuni, cuiuscumque
+                  conditionis existant, et de <lb/>quocumque tempore, ut vobis videbitur fore
+                  necesse, habendo super hoc illammet libertatem <lb/>quam habetis de aliis vobis
+                  commissis.</p>
+            </div>
+            <div type="chapter" n="11" xml:id="Marc_ch11" corresp="#ASVe_ch11">
+               <p><lb/>Insuper debeatis inquirere, si damna et extorsiones facte sint per dictos
+                  rectores et offitiales <lb/>contra nostrum comune, cum illa libertate et modis
+                  omnibus quos habetis de aliis vobis commissis.</p>
+            </div>
+            <div type="chapter" n="12" xml:id="Marc_ch12" corresp="#ASVe_ch12">
+               <head>XII</head>
+               <p><lb/>Ceterum reperiendo aliquem in culpa, qui foret in partibus illis, habeatis
+                  plenam libertatem <lb/>imponendi sibi penam, quod personaliter veniat Venetias vel
+                  mittat commissionem ad personam, <lb/>que possit et debeat ipsa uti, taliter quod
+                  sufficiens sit responsator ad consequendam intentionem <lb/>dominii. Et vos
+                  notificare ei debeatis capitula, super quibus debeant fieri commissiones ad
+                  respo<lb/>ndendum. Verum si aliquis offitialis commisisset tale quid et sic enorme
+                  quod suspicaremini, <lb/>quod non veniret Venetias, iuxta preceptum sibi factum
+                  per vos propter gravitatem delicti, tunc in <lb/>isto casu vos provisores et
+                  rector loci, existente ipso rectore de ipsa opinione vobiscum, <lb/>possitis ipsum
+                  offitialem facere personaliter detineri et mitti Venetias, sicut vestre
+                  discretioni <lb/>videbitur considerata culpa sua.</p>
+            </div>
+            <div type="chapter" n="13" xml:id="Marc_ch13" corresp="#ASVe_ch13">
+               <head>XIII</head>
+               <p><lb/>Insuper, quia fertur quod in insula Crete et aliis partibus Romanie facta
+                  fuit et fit mala <lb/>administratio bonorum et pecunie nostri comunis, habeatis
+                  libertatem plenariam inquirendi et exa<lb/>minandi ac diligenter investigandi, tam
+                  per viam inquisitionis quam per testificationes, que<lb/>relas et scripturas
+                  contra omnes qui viderentur vobis suspecti et male administrasse <lb/>bona et
+                  pecuniam nostri comunis, videlicet ab annis X citra. Et omnes tales quos
+                  culpabiles inveni<lb/>retis, condemnare et compellere ad restituendum totum illud
+                  quod cognoveritis illos indebite ad<lb/>ministrasse et male accepisse, per illum
+                  modum et cum illa libertate plenaria, quam habent <lb/>et servant officiales
+                  rationum veterum in Venetiis, contra male administrantes bona et <pb n="5"
+                     facs="#Marc_c.60v"/>
+                  <lb/>havere comunis, ita quod in isto casu sitis offitiales rationum. Et de toto
+                  eo quod exegeritis habere, <lb/>debeatis medietatem, et scribatis et mandetis
+                  regiminibus Crete et aliorum locorum predictorum <lb/>quod dare debeant vobis
+                  auxilium et favorem, tam de notariis, quam de omnibus aliis, quotiens ab eis
+                  <lb/>requisiveritis illud pro dicta executione, contra quoslibet per vos
+                  condemnatos facienda. Quam execu<lb/>tionem, si complere non poteritis ante
+                  discessum vestrum de partibus in quibus fueritis, committere de<lb/>beatis illam
+                  faciendam rectoribus locorum, ubi illam complere non poteritis. Quibus rectoribus
+                  com<lb/>misimus et efficaciter mandavimus, sicut sibi commiseritis verum si
+                  condemnati per vos de condemna<lb/>tionibus quas feceritis contra eos conqueri
+                  voluerint, habeant libertatem recurendi ad <lb/>nostrum ducale dominium vel ad
+                  alia loca ad que recurrere possunt illi, qui volunt conqueri de offi<lb/>tialibus
+                  rationum, et persequi jus suum contra vos provisores et sindicos. Et si fueritis
+                  <lb/>convinti male condemnasse et a condemnatis exegisse, debeatis totum quod
+                  exegeritis et habueritis <lb/>restituere et medietatem plus pro pena.</p>
+            </div>
+            <div type="chapter" n="14" xml:id="Marc_ch14" corresp="#ASVe_ch14">
+               <head>XIIII</head>
+               <p><lb/>Item habere debeatis de salario pro primis quatuor mensibus ducatos CLX auri
+                  pro quolibet, et ab <lb/>inde in antea ducatos XX auri pro quolibet in mense. De
+                  quibus ducatis CLX vos duo <lb/>sindici, qui estis ituri in Cretam, habere
+                  debeatis, hic in Venetiis, ante recessum vestrum, ducatos <lb/>centum auri, et
+                  alios ducatos LX habere debeatis a camera nostra Crete, et similiter alios
+                  <lb/>ducatos XX in mense pro illo tempore quo steteritis extra in dicto sindicatu
+                  ultra dictos IIII <lb/>menses. Et sic scribimus et mandamus regimini Crete, quod
+                  deinde vobis fatiat subventionem predictam. <lb/>Vos autem sindici qui ibitis ad
+                  partes Romanie et Nigropontis habere debeatis totum vestrum salarium
+                  <lb/>predictum hic in Venetiis. Et insuper de toto eo quod intromittetis et
+                  condemnationem et sentenciam <lb/>facietis habere debeatis medietatem. Et potestis
+                  expendere vos sindici ituri in Cretam inter vos <lb/>ambos ducatos duos auri in
+                  die, ducendo vobiscum duos famulos pro quolibet, unum nota<lb/>rium cum uno
+                  famulo, et unum coquum. Et similiter vos alii duo ituri ad partes Nigropontis
+                  <lb/>et ad alias partes, potestis expendere alios ducatos duos auri in die,
+                  ducendo vobiscum <lb/>similem familiam, non computatis in his nabulis navigiorum
+                  et agotiis equorum. Et debetis <lb/>esse ad unum denarium de omnibus his, de
+                  quibus concurretis in una opinione.</p>
+            </div>
+            <div type="chapter" n="15" xml:id="Marc_ch15" corresp="#ASVe_ch15">
+               <head>XV</head>
+               <p><lb/>Et si feceritis aliquam inquisitionem contra aliquem, qui esset extra illum
+                  locum, ubi <lb/>illam feceritis, habeatis libertatem, postquam applicueritis
+                  Venetias, fatiendi officium vobis com<lb/>missum per modum supradictum, contra
+                  illum, contra quem inquisiveritis, usque terminum <lb/>vobis superius limitatum,
+                  ita quod teneamini et debeatis vos expedivisse per totum dictum <lb/>tempus.</p>
+            </div>
+            <div type="chapter" n="16" xml:id="Marc_ch16" corresp="#ASVe_ch16">
+               <head>XVI</head>
+               <p><lb/>Insuper, declaramus vobis, quod in casu quo in aliquo essetis diferentes,
+                  quod quilibet vestrum <lb/>habeat libertatem plenariam inquirendi et
+                  intromittendi, prout possetis, si essetis concordes.</p>
+            </div>
+            <div type="chapter" n="17" xml:id="Marc_ch17" corresp="#ASVe_ch17">
+               <head>XVII</head>
+               <p><lb/>Quia per suprascriptam partem de inquirendo contra illos, qui male
+                  administrassent <lb/>pecuniam comunis, non videtur vos provisores et sindicos
+                  habere libertatem in aliquo casu <pb n="6" facs="#Marc_c.60r"/>
+                  <lb/>inquirendi contra aliquam spetialem personam, et sicut fertur publice aliqui
+                  cives et habitatores ipsorum <lb/>locorum Romanie pro necessitatibus arduis et
+                  magnis nostri comunis in partibus illis mutuaverint <lb/>multam pecunie
+                  quantitatem rectoribus nostris, nomine nostri comunis pro furniendo et solvendo
+                  ubi extiterat <lb/>opportunum, quam pecuniam non valentes rehabere aliquo modo, in
+                  totum nec in partem, fecerunt <lb/>venditionem de ipsa pecunia vel denariis forte
+                  pro medietate vel minore quantitate aliquibus <lb/>ementibus, quibus emptoribus
+                  statim fuit solutum de bonis denariis integraliter pro tota quanti<lb/>tate
+                  dictorum denariorum seu pecunie nostro comuni mutuate, quod fuit cum damno maximo
+                  nostri comunis, <lb/>quia dicti emptores nichil de bursa sua solverunt, nec
+                  aliquid mutuaverunt comuni, et tamen <lb/>lucrati fuerunt medietatem propter quod
+                  solvi non potuit nec dari ubi magis necessarium erat <lb/>dari et solvi, sicut
+                  erant soldati, qui compleverant pagas suas per longum tempus, et alie <lb/>res
+                  multum opportune cum maximo periculo status nostri, capta fuit pars, quod
+                  committatur <lb/>vobis provisoribus et sindicis, quod quando eritis in partibus
+                  Romanie, debeatis diligenter inquirere <lb/>et examinare contra omnem personam,
+                  quam senseritis talia mercata fecisse, per modum predictum. <lb/>Et quos
+                  inveneritis emisse de talibus denariis et pecunia ac lucratos fuisse, ut supra
+                  <lb/>dicitur, faciatis totum lucrum, quod exinde percepissent, restitui et poni in
+                  nostrum comune. <lb/>Verum, ut vos provisores et sindici sitis magis soliciti ad
+                  inquirendum de predictis mercatis et lucris, <lb/>habere debeatis, de toto eo quod
+                  inveneritis et poni feceritis in comune, soldos duos pro libra. Et, si <lb/>vobis
+                  sindicis et provisoribus constaverit aliquem rectorem vel officialem nostrum
+                  fuisse participem <lb/>talis emptionis vel lucri, procedere debeatis contra eum
+                  vel eos, sicut in parte de male <lb/>administrantibus pecuniam comunis vobis
+                  commissa plenius continetur, in illa videlicet parte, que <lb/>tetigisset illum
+                  rectorem vel officialem de dicta emptione vel lucro solum. Et si de predictis vel
+                  <lb/>aliquo predictorum fuerit accusator per quem veritas habeatur, habere debeat
+                  soldos duos pro libra de parte tangente comuni, <add place="margin">
+                     <lb/>et teneatur de credentia, <lb/>quam partem, ut <lb/>dictum est, superius
+                     debeatis <lb/>inviolabiliter observare</add>
+                  <note type="palaeographic">Added in the lower left margin, shortly before the
+                     beginning of the following chapter.</note></p>
+            </div>
+            <div type="chapter" n="18" xml:id="Marc_ch18" corresp="#ASVe_ch18">
+               <head>XVIII</head>
+               <p><lb/>Et non potestis refutare, sub pena ducatorum centum auri pro quolibet. Et
+                  debeatis omnino recedere <lb/>cum illa galeota, quam mittimus Caneam. Et cum
+                  applicueritis Mothonum, vos Johannes <lb/>Aymo et Lucas Truno, qui vaditis
+                  Nigropontem, ascendetis super galea Nigropontis ventura <lb/>Mothonum ad levandum
+                  nobilem virum ser Nicolaum Venerio, qui vadit baiulus et capitaneus
+                  <lb/>Nigropontis, vos vero Andreas Barbaro et Jacobus Michael ire debeatis cum
+                  dicta galeota <lb/>usque ad partes Crete.</p>
+            </div>
+            <div type="chapter" n="19" xml:id="Marc_ch19" corresp="#ASVe_ch19">
+               <head>XVIIII</head>
+               <p><lb/>Insuper, licet per suprascripta capitula sit vobis data libertas inquirendi
+                  contra omnes generaliter, <lb/>qui essent vel fuissent in partibus et locis
+                  supranominatis ab annis decem citra, tamen vos avisamus, <lb/>quod sicut captum
+                  est in nostris consiliis rogatorum et addicionis non potestis vos impedire de
+                  illis proces<lb/>sibus, qui iam forent abinati et intromissi per advocatores
+                  nostri comunis, qui advocatores tenentur <lb/>dictos tales processus intromissos
+                  dare vobis in scriptis, ut sciatis, quid debetis observare.</p>
+            </div>
+            <div type="chapter" n="20" xml:id="Marc_ch20" corresp="#ASVe_ch20">
+               <head>XX</head>
+               <p><lb/>Item tenemini et debetis pro possendo melius habere informationem et
+                  veritatem rerum, que non <lb/>forent bene facte per rectores et officiales nostros
+                  dictarum partium, convocare et interrogare separatim <pb n="7" facs="#Marc_c.61v"/>
+                  <lb/>de nostris fidelibus dictorum locorum usque ad numerum XII adminus pro
+                  quolibet locorum, <lb/>tam grecis quam latinis et plures si vobis videbuntur et
+                  illas personas que vobis videbuntur, <lb/>et dare eis et cuilibet ipsorum
+                  sacramentum, quod dicant et propalent omnia, que sciverint vel audi<lb/>verint
+                  esse acta per aliquem rectorem vel officialem loci unde erunt contra honorem
+                  nostrum <lb/>et contra jus et justiciam, vel in damnum nostri comunis vel alicuius
+                  persone indebite et iniuste, ut <lb/>vos clarius possitis procedere et facere
+                  officium vestrum secundum formam vestre commissionis.</p>
+            </div>
+            <div type="chapter" n="21" xml:id="Marc_ch21" corresp="#ASVe_ch21">
+               <head>XXI</head>
+               <p><lb/>Item sciatis quod de aliqua condemnatione vel sentencia, que fiat per
+                  placitare vestrum vel alicuius <lb/>vestrum, non potest fieri aliqua gratia,
+                  donum, remissio, recompensatio, termini elongatio, vel <lb/>aliqua declaratio,
+                  nisi per sex consiliarios, tria capita de XL, XXXV de XL, et tres partes consilii
+                  maioris.</p>
+            </div>
+            <div type="chapter" n="22" xml:id="Marc_ch22" corresp="#ASVe_ch22">
+               <head>XXII</head>
+               <p><lb/>Insuper pro transitu vestro de uno loco ad alium, scribimus per nostras
+                  litteras baiulo et capitaneo <lb/>Nigropontis et consiliariis suis, quod ad omnem
+                  requisitionem mittere debeant galeam Nigropontis <lb/>vel aliud suffitiens et
+                  tutum navigium in omnem partem, ubi fueritis, ad levandum et conducendum <lb/>vos
+                  Nigropontem. Et similiter, existentibus vobis in Nigroponte, dictam galeam
+                  existentem <lb/>armatam vel aliud sufficiens et securum navigium, vobis consignari
+                  faciat dictum regimen, <lb/>pro passagio vestro, intelligendo quod dicta galea
+                  Nigropontis sit solum pro sindicis Nigro<lb/>pontis et aliorum locorum Romanie, et
+                  non pro sindicis Crete. Et insuper scribimus dicto <lb/>regimini Nigropontis ac
+                  aliis rectoribus partium Romanie quod debeant vobis de <lb/>pecuniis necessariis
+                  pro expensis vestris et familie vestre subvenire, sicut ab eis du<lb/>xeritis
+                  requirendum.</p>
+            </div>
+            <div type="chapter" n="23" xml:id="Marc_ch23" corresp="#ASVe_ch23">
+               <head>XXIII</head>
+               <p><lb/>Et similiter scribimus capitaneo et supracomitis nostris Culphy et aliis
+                  capitaneis nostrorum <lb/>navigiorum armatorum, quod in casu quo se reperirent in
+                  illis partibus insule Crete vel Romanie <lb/>vel aliis ibi prope et fuerint
+                  requisiti tam a vobis sindicis Crete quam a vobis sindicis Romanie <lb/>et
+                  Nigropontis, tam oretenus quam per literas, quod cum una ex dictis galeis vel
+                  navigiis <lb/>vos levare et conducere debeant ad aliquas partes, ipsi debeant vos
+                  levare et conducere <lb/>prout duxeritis ordinandum, pro celeri expeditione
+                  agendorum vobis commissorum, dummodo non essent <lb/>aliis rebus maioribus agendis
+                  occupati. Et tunc quando non possetis per dictum modum habere <lb/>passagium, vos
+                  providere debeatis de transitu vestro, prout vobis melius videbitur, et cum quam
+                  <lb/>minori expensa nostri comunis poteritis.</p>
+            </div>
+            <div type="chapter" n="24" xml:id="Marc_ch24" corresp="#ASVe_ch24">
+               <head>XXIIII</head>
+               <p><lb/>Insuper capta fuit in consilio rogatorum et addicione pars infrascripti
+                  tenoris, cum sint multa loca, <lb/>territoria et possessiones nostri comunis, que
+                  debent incantari et deliberari in insula Crete, de quibus <lb/>est utile
+                  providere, ita quod non decipiatur comune nostrum, vadit pars, quod stringatur et
+                  prohibeatur, quod <lb/>cancellarii, scribe vel notarii camerariorum Crete vel alii
+                  pro eis vel eorum nomine non possint de cetero <lb/>accipere ad incantum, ullo
+                  modo, de illis territoriis et locis vel possessionibus nostri comunis, sub pena
+                     <pb n="8" facs="#Marc_c.61r"/>
+                  <lb/>perdendi totum quod acciperent, quod sit nostri comunis. Et scribatur duche
+                  et consiliariis Crete et addatur <lb/>in suis commissionibus, quod sic teneantur
+                  et debeant observare et facere observari.</p>
+            </div>
+            <div type="chapter" n="25" xml:id="Marc_ch25" corresp="#ASVe_ch25">
+               <head>XXV</head>
+               <p><lb/>Item commissum est dictis duche et consiliariis Crete quod debeant facere
+                  solvi de presenti totum quicquid <lb/>predicti cancellarii, notarii aut scribe
+                  tenentur solvere nostro comuni, occasione terrenorum, locorum et
+                  <lb/>possessionum, quas habuissent a nostro comuni, intromittendo et vendendo de
+                  bonis illorum si non solvent <lb/>ut dictum est, quam partem vos sindici et
+                  provisores similiter observari facere debeatis.</p>
+            </div>
+            <div type="chapter" n="26" xml:id="Marc_ch26" corresp="#ASVe_ch28">
+               <head>XXVI</head>
+               <p><lb/>Insuper, observare debeatis infrascriptam partem captam in nostris consiliis
+                  rogatorum et additionis, videlicet, <lb/>quia bonum est declarare libertatem, quam
+                  sindici et provisores nostri ituri in Cretam et alia loca <lb/>Romanie habere
+                  debent, prout soliti sunt habere, super factis pro quibus facti sunt provisores,
+                  <lb/>ordinetur quod quando dicti sindici et provisores erunt in locis nostris
+                  insule Crete, Coroni et Mo<lb/>thoni, Corphoy, Neapolis Romanie et Nigropontis,
+                  debeant esse et conferre cum rectoribus ipsorum <lb/>locorum, et secum inquirere
+                  et diligenter examinare de omnibus que sibi videbuntur esse utilia <lb/>ac
+                  necessaria pro bono comodo ac conservatione ipsorum locorum. Et facta diligenti
+                  examinatione, <lb/>debeant requirere ipsos rectores quod poni faciant suas
+                  opiniones et consilium in scriptis, quas <lb/>suis literis inclusas debeant
+                  Venetias apportare et nobis presentare. Verum sit licitum dictis sin<lb/>dicis et
+                  cuilibet eorum venire postea ad consilium rogatorum et additionis infra duos
+                  menses, post ad<lb/>ventum suum Venecias, et consulere et ponere partem super
+                  omnibus, que videbuntur eis vel alicui eorum <lb/>comoda et necessaria pro bono,
+                  et conservatione et utilitate locorum predictorum. Εt sicut de conselio
+                  <lb/>possit ponere ballotam. Et ultra predictam generalem libertatem, si placebit
+                  dominio aliquid specificare <lb/>dictis sindicis, super quo dicti sindici et
+                  provisores habere debeant advertentiam et examinationem, <lb/>ponatur spetialiter
+                  in commissione dictorum sindicorum, non derogando propterea quod ultra que
+                  spetialiter <lb/>commissa eis fuerint examinanda, possint generaliter examinare et
+                  providere ut superius dictum est.</p>
+            </div>
+            <div type="chapter" n="27" xml:id="Marc_ch27" corresp="#ASVe_ch27">
+               <head>XXVII</head>
+               <p><lb/>In reditu vestro, postquam applicueritis Venecias, tenemini infra unum mensem
+                  ire vel mittere ad offi<lb/>tiales rationum ad fatiendum rationem cum eis et ad
+                  solvendum illud quod debetis dare et refundere <lb/>nostro comuni, pro familia et
+                  equis qui vobis defecerint tempore vestri regiminis, in ratione grossorum
+                  <lb/>trium in die pro quolibet ente de vestra familia et pro quolibet equo qui
+                  vobis deffecissent, pro <lb/>tanto tempore quanto vobis defecerint. Verum, si
+                  deficiet vobis aliquis de vestra familia, datum <lb/>terminum ad remittendum alium
+                  octo dierum. Et si aliquis equus vobis defecerit, habeatis terminum <lb/>ad
+                  remittendum alium duodecim dierum. Et si remiseritis ad dictos terminos, nichil
+                  teneamini <lb/>refundere comuni pro eis; si autem non remiseritis ad terminos
+                  antedictos, tunc debeatis refundere <lb/>comuni a die, qua vobis defecerint, usque
+                  ad diem quo remiseritis in ratione predicta. Hoc autem <lb/>servabitis sub pena
+                  librarum quingentarum, et tamen tenemini ad solvendum omne id quod debebitis
+                  <lb/>pro dictis defectibus, in ratione predicta. Cuius pene librarum VC, medietas
+                  sit accusatoris si fuerit, <lb/>per quem sciatur veritas, et alia medietas
+                  dividatur inter comune nostrum et offitiales <lb/>rationum predictos. Et si
+                  condemnabimini per offitiales rationum ad aliquid dandum vel refundendum, tunc
+                  subia<lb/>ceatis parti capte in maiori consilio contra illos qui non solvunt,
+                  postquam eis preceptum fuerit per offitiales rationum predictos.</p>
+            </div>
+            <pb n="9" facs="#Marc_c.62v"/>
+            <div type="part" n="2" xml:id="Marc_appendix" corresp="#ASVe_appendix">
+               <head> Pars furantium </head>
+            </div>
+            <div type="chapter" n="28" xml:id="Marc_ch28" corresp="#ASVe_ch26">
+               <head>XXVIII</head>
+               <p><lb/>Si convictus fueris per advocatores comunis quod furatus fueris de bonis et
+                  havere comunis libras L ad grossos <lb/>vel inde supra, aut acceperis ab aliis
+                  contra commissionem tuam libras C ad grossos vel inde supra, modo <lb/>aliquo vel
+                  ingenio, intelligaris ex nunc cecidisse ad solvendum capitale et tantumdem, pro
+                  pena, usque ad tres <lb/>dies postquam fueris convictus, sub pena soldorum quinque
+                  pro libra tam capitalis quam pene. Que pena dividatur per <lb/>medium, videlicet
+                  medietas sit advocatorum et alia medietas sit comunis. Et si fuerit accusator,
+                  pena dividatur <lb/>per tertium et sit de credentia, et ultra hoc sis perpetuo
+                  privatus omnibus offitiis, regiminibus, consiliis <lb/>et beneficiis comunis
+                  venetiarum, tam intus quam extra, et crideris in primo maiori consilio de festo
+                  solenni cridato <lb/>vel in quo fiant de duodecim regiminibus per unum de
+                  advocatoribus comunis. Verum, si voles restituere et <lb/>restitues usque ad tres
+                  dies postquam fueris requisitus ab advocatoribus, non permittendo te convinci sed
+                  con<lb/>fitendo te furatum fuisse de bonis comunis vel aliter accepisse ab aliis
+                  contra commissionem tuam, tunc tenearis <lb/>solvere capitale et medietatem plus
+                  pro pena, que dividatur ut supra. Et ultra hoc sis perpetuo <lb/>privatus presenti
+                  regimine, et crideris in maiori consilio ut est dictum. Si vero convictus fueris
+                  fu<lb/>ratum fuisse a libris L infra de bonis comunis vel ab aliis aliter
+                  accepisse contra commissionem tuam <lb/>a libris C ad grossos infra, tunc incuras
+                  ad solvendum capitale et medietatem plus pro <lb/>pena ad dictum terminum, et sub
+                  dicta pena, que dividatur ut supra. Et ultra hoc sis perpetuo <lb/>privatus hoc
+                  regimine et publiceris in maiori consilio per advocatores comunis, ut est dictum.
+                  Et <lb/>si voles restituere et restitues usque ad tres dies postquam fueris
+                  requisitus ab advocatoribus <lb/>comunis, non permittendo te convinci sed
+                  confitendo te furatum fuisse de bonis comunis a libris L infra ad <lb/>grossos,
+                  tunc ad dictum terminum et sub dicta pena teneris solvere capitale et tertium plus
+                  <lb/>pro pena, que dividatur ut supra; et ultra hoc priveris hoc presenti
+                  regimine. Verum si <lb/>scriberes in tuis rationibus vel quaternis aliquas
+                  expensas vel alias res, quas offitiales <lb/>rationum dicerent non potuisse poni,
+                  tunc hoc non habeatur pro furto sed veniatur ad collegium <lb/>nostri
+                  consiliariorum, capitum, advocatorum et offitialium rationum, ubi terminetur si
+                  dicte expense <lb/>erunt bene posite vel non, sicut modo servatur et sicut
+                  continetur in capitulari consiliariorum in hac <lb/>parte. Sed si vigore alicuius
+                  sententie, determinationis vel alterius actus iuditiarii aut vigore <lb/>alicuius
+                  publice consuetudinis aliquid acciperes vel dares contra id quod deberes, quod
+                  forte cre<lb/>deres posse licite accipere vel dare, in his casibus, non cadas ad
+                  dictas penas, sed servetur illud <lb/>servatum hodie, videlicet quod si volueris
+                  restituere et restitues quod indebite acceperis infra tres dies, <lb/>ipsum
+                  restituas sine aliqua pena. Si autem permiseris te duci et convinci ad consilia,
+                  cadas ad dictam <lb/>penam dupli, que dividatur sicut dividitur hodie. Et de
+                  omnibus dictis penis vel capitalibus <lb/>non potest tibi fieri gratia, donum,
+                  remissio, revocatio vel termini elongatio, sub pena ducatorum <lb/>VC pro quolibet
+                  ponente vel consentiente partem in contrarium.</p>
+            </div>
+            <div type="closure" n="29" xml:id="Marc_closure" corresp="#ASVe_closure">
+               <p><lb/>Iurastis honorem et proficuum comunis venetiarum, eundo stando et reddeundo
+                  et cetera. <lb/>Omnia que tibi dicendo mandabimus, attendes et observabis bona
+                  fide et sine fraude. <lb/>Data in nostro ducali palatio, die XVIIII mensis
+                  aprilis, inditione prima, MCCCCVIII.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
