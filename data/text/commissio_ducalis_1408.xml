@@ -1209,7 +1209,7 @@
                      </rdg>
                   </app> nostris <placeName ref="#PLA-CR">Crete</placeName> et aliis nostris
                      <orgName type="office" ref="#ORG-RT">rectoribus</orgName>
-                  <app type="lexical">
+                  <app type="omission">
                      <lem wit="#WIT-ASVe">insule <placeName ref="#PLA-CR">Crete</placeName></lem>
                      <rdg wit="#WIT-Marc">dicte insule</rdg>
                   </app>, cum quibus, habita collatione insimul <lb/>quando vobis utile apparebit,
@@ -1336,8 +1336,8 @@
                      value="1">unum</num> annum, sed ad officia et regimina de intus corpus
                   venetiarum sic. Et <lb/>nichilominus remanere debeatis in dicto sindicatu, non
                   obstante quod sitis <orgName type="office" ref="#ORG-OF">offitiales</orgName>. Et
-                  non potestis <lb/>etiam postquam redieritis <app type="lexical">
-                     <lem wit="#WIT-ASVe">a dicto sindicatu refutare</lem>
+                  non potestis <lb/>etiam postquam redieritis a dicto sindicatu <app type="omission">
+                     <lem wit="#WIT-ASVe">refutare</lem>
                      <rdg wit="#WIT-Marc">ipsum sindacatum refutare</rdg>
                   </app> modo aliquo a die applica<lb/>tionis usque <num type="time" value="1"
                      >unum</num> annum, sub pena ducatorum <num type="currency" value="100"
@@ -1847,7 +1847,7 @@
                   restituas sine aliqua pena. Si autem <lb/>permiseris te duci et convinci ad
                   consilia, cadas ad dictam penam dupli, que dividatur sicut <lb/>dividitur hodie.
                   Et de omnibus dictis penis vel capitalibus non potest tibi fieri gratia, donum,
-                  <lb/>remissio, revocatio vel termini <app type="lexical">
+                  <lb/>remissio, revocatio vel termini <app type="orthographic">
                      <lem wit="#WIT-ASVe">delongatio</lem>
                      <rdg wit="#WIT-Marc">elongatio</rdg>
                   </app>, sub pena ducatorum <num type="currency" value="500">V<hi rend="sup"
