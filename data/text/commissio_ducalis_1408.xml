@@ -1079,25 +1079,26 @@
                         <att>type</att>="grammatical": grammatical or syntactic variation involving
                         agreement, case, number, person, verbal form, or constructional rephrasing
                         without a change in semantic content (e.g. <q>habeatis terminum</q> /
-                           <q>datum terminum</q>, <q>vobis</q> / <q>tibi</q>). </item>
+                           <q>datum terminum</q>, <q>vobis</q> / <q>tibi</q>).</item>
                      <item>
                         <gi>app</gi>
                         <att>type</att>="numerical": variation in numerical expressions, including
-                        Roman numerals, spelled-out numerals, and quantitative values. </item>
+                        Roman numerals, spelled-out numerals, and quantitative values.</item>
                      <item>
                         <gi>app</gi>
                         <att>type</att>="omission": explicit additions or omissions of words or
-                        phrases between witnesses. </item>
+                        phrases between witnesses (e.g. <q>refutare</q> / <q>ipsum sindacatum
+                           refutare</q>).</item>
                      <item>
                         <gi>app</gi>
                         <att>type</att>="orthographic": purely graphic or orthographic variation,
                         including spelling differences, scribal errors, and variant written forms of
                         the same word (e.g. <q>delongatio</q> / <q>elongatio</q>, <q>furantum</q> /
-                           <q>furatum</q>). </item>
+                           <q>furatum</q>).</item>
                      <item>
                         <gi>app</gi>
                         <att>type</att>="paratext": paratextual or structural variation, such as
-                        headings, rubrics, titles, or other non-running-text elements. </item>
+                        headings, rubrics, titles, or other non-running-text elements.</item>
                      <item>
                         <gi>app</gi>
                         <att>type</att>="transposition": reordering of identical lexical material or
