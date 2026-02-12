@@ -1082,12 +1082,6 @@
                            <q>datum terminum</q>, <q>vobis</q> / <q>tibi</q>). </item>
                      <item>
                         <gi>app</gi>
-                        <att>type</att>="lexical": substantive lexical or phrasal variation,
-                        including the addition or omission of lexical material and reformulations
-                        that affect the explicitness or semantic scope of a passage (e.g.
-                           <q>refutare</q> / <q>ipsum sindacatum refutare</q>). </item>
-                     <item>
-                        <gi>app</gi>
                         <att>type</att>="numerical": variation in numerical expressions, including
                         Roman numerals, spelled-out numerals, and quantitative values. </item>
                      <item>
