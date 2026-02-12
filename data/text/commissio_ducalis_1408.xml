@@ -1336,8 +1336,8 @@
                      value="1">unum</num> annum, sed ad officia et regimina de intus corpus
                   venetiarum sic. Et <lb/>nichilominus remanere debeatis in dicto sindicatu, non
                   obstante quod sitis <orgName type="office" ref="#ORG-OF">offitiales</orgName>. Et
-                  non potestis <lb/>etiam postquam redieritis a dicto sindicatu <app type="lexical">
-                     <lem wit="#WIT-ASVe">refutare</lem>
+                  non potestis <lb/>etiam postquam redieritis <app type="lexical">
+                     <lem wit="#WIT-ASVe">a dicto sindicatu refutare</lem>
                      <rdg wit="#WIT-Marc">ipsum sindacatum refutare</rdg>
                   </app> modo aliquo a die applica<lb/>tionis usque <num type="time" value="1"
                      >unum</num> annum, sub pena ducatorum <num type="currency" value="100"
@@ -1935,7 +1935,7 @@
                      >sindicorum</orgName>, non derogando propterea quod ultra que spetialiter
                   <lb/>commissa eis fuerint examinanda, possint generaliter examinare et providere
                   ut superius dictum est.</p>
-               <div type="closure" n="29" xml:id="ASVe_closure" corresp="#Marc_closure">
+               <div type="closure" n="ΑSVe Witness" xml:id="ASVe_closure" corresp="#Marc_closure">
                   <p><lb/>Iurastis proficuum et honorem <orgName type="organization" ref="#ORG-CM"
                         >comunis venetiarum</orgName>, eundo stando et redeundo <app type="omission">
                         <lem wit="#WIT-ASVe">om.</lem>
@@ -2417,7 +2417,7 @@
                   remissio, revocatio vel termini elongatio, sub pena ducatorum <lb/>VC pro quolibet
                   ponente vel consentiente partem in contrarium.</p>
             </div>
-            <div type="closure" n="29" xml:id="Marc_closure" corresp="#ASVe_closure">
+            <div type="closure" n="Marciana Witness" xml:id="Marc_closure" corresp="#ASVe_closure">
                <p><lb/>Iurastis honorem et proficuum comunis venetiarum, eundo stando et reddeundo
                   et cetera. <lb/>Omnia que tibi dicendo mandabimus, attendes et observabis bona
                   fide et sine fraude. <lb/>Data in nostro ducali palatio, die XVIIII mensis
