@@ -558,22 +558,6 @@
                </org>
             </listOrg>
             <listPerson>
-               <person xml:id="Gualterius">
-                  <persName>
-                     <forename>Gualterius / Walterius</forename>
-                  </persName>
-                  <sex>M</sex>
-               </person>
-               <person xml:id="GualEpLuni">
-                  <persName>
-                     <forename>Gualterius</forename>
-                  </persName>
-                  <sex>M</sex>
-                  <occupation n="1">episcopus Lunensis</occupation>
-                  <note>Gualtiero II, vescovo di Luni, attestato la prima volta il <ref
-                        target="#LXXXVII_104" type="doc">5 novembre 1193</ref> e l'ultima il <ref
-                        target="#CI_118" type="doc"> 2 aprile 1212</ref>.</note>
-               </person>
                <person xml:id="PER-MS">
                   <persName>
                      <forename>Michele</forename>
