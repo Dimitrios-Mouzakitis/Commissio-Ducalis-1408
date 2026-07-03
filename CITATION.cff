@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it using the metadata below."
+
+title: "Commissio Ducalis 1408"
+
+type: software
+
+authors:
+  - family-names: Mouzakitis
+    given-names: Dimitrios Chrysovalantis
+
+version: "1.0.0"
+
+doi: 10.5281/zenodo.21168089
+
+date-released: 2026-07-03
+
+repository-code: "https://github.com/Dimitrios-Mouzakitis/Commissio-Ducalis-1408"
+
+license: "CC-BY-NC-SA-4.0"
