@@ -26,4 +26,8 @@ The online edition is available at:
 
 **Dimitrios Chrysovalantis Mouzakitis**
 
+## Citation
+
+**DOI:** [10.5281/zenodo.21168089](https://doi.org/10.5281/zenodo.21168089)
+
 Developed as part of my Master's thesis for the MA in Digital and Public Humanities at Ca' Foscari University of Venice.
